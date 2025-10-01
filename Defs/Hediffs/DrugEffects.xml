@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 康复药 -->
+  <HediffDef>
+    <defName>RatkinRecoveryPotionHigh</defName>
+    <label>recovery potion effect</label>
+    <description>Body pain is leaving me. A soothing warmth spreads through the body, accelerating natural healing.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <hungerRateFactorOffset>0.25</hungerRateFactorOffset>
+        <statOffsets>
+          <InjuryHealingFactor>0.5</InjuryHealingFactor>
+          <ImmunityGainSpeed>0.5</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 低级治疗药 -->
+  <HediffDef>
+    <defName>RatkinMinorHealingPotionHigh</defName>
+    <label>minor healing effect</label>
+    <description>The burning pain of wounds has lessened! Quick relief from minor injuries.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.7, 0.7)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-24.0</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_InstantHeal">
+        <woundsToHeal>1</woundsToHeal>
+        <healInfections>false</healInfections>
+        <healOldWounds>false</healOldWounds>
+        <healingQuality>1.0</healingQuality>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <PainShockThreshold>0.2</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 中级治疗药 -->
+  <HediffDef>
+    <defName>RatkinMediumHealingPotionHigh</defName>
+    <label>medium healing effect</label>
+    <description>So many wounds don't hurt anymore! Powerful healing for multiple injuries.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.5, 0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-24.0</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_InstantHeal">
+        <woundsToHeal>5</woundsToHeal>
+        <healInfections>false</healInfections>
+        <healOldWounds>false</healOldWounds>
+        <healingQuality>1.0</healingQuality>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <PainShockThreshold>0.4</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 高级治疗药 -->
+  <HediffDef>
+    <defName>RatkinMajorHealingPotionHigh</defName>
+    <label>major healing effect</label>
+    <description>Miraculous! My wounds are almost healed! Incredible healing power with serious risks.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.3, 0.3)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-24.0</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_InstantHeal">
+        <woundsToHeal>10</woundsToHeal>
+        <healInfections>false</healInfections>
+        <healOldWounds>false</healOldWounds>
+        <healingQuality>1.0</healingQuality>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <PainShockThreshold>0.6</PainShockThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 速度药 -->
+  <HediffDef>
+    <defName>RatkinSpeedPotionHigh</defName>
+    <label>speed potion effect</label>
+    <description>The wind beneath my feet urges me on! Enhanced movement speed but at a cost.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.5, 1.0, 1.0)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-12.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>0.8</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 万灵药 -->
+  <HediffDef>
+    <defName>RatkinPanaceaHigh</defName>
+    <label>panacea effect</label>
+    <description>All ailments have been completely purified! Divine healing power flows through the body.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 1.0, 0.8)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <InjuryHealingFactor>2.0</InjuryHealingFactor>
+          <ImmunityGainSpeed>2.0</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 复活虚弱 -->
+  <!-- <HediffDef>
+    <defName>RatkinResurrectionSickness</defName>
+    <label>resurrection sickness</label>
+    <description>Ugh... where did I come from? The soul struggles to reconnect with the body after being forcibly returned from death.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.143</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_Resurrection">
+        <sicknessHediff>RatkinResurrectionSickness</sicknessHediff>
+        <sicknessSeverity>1.0</sicknessSeverity>
+        <clearSocialMemories>true</clearSocialMemories>
+        <clearCulturalMemories>true</clearCulturalMemories>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.7</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef> -->
+
+  <!-- 老鼠药 -->
+  <HediffDef>
+    <defName>RatkinPoisonEffect</defName>
+    <label>rat poison poisoning</label>
+    <description>Rat poison...? Rat poison! Severe poisoning from the toxic substance.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 0.3, 0.7)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.3</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+        <vomitMtbDays>0.5</vomitMtbDays>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 解毒药 -->
+  <HediffDef>
+    <defName>RatkinAntidoteEffect</defName>
+    <label>antidote recovery</label>
+    <description>After vomiting... I feel better. My body has purged the toxins and is recovering.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.3</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 灵感药 -->
+  <HediffDef>
+    <defName>RatkinInspirationEffect</defName>
+    <label>inspired state</label>
+    <description>I understand it! Brilliant insights flow through my mind crystal clear.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 1.0)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.333</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_GivePermanentTrait">
+        <traitDef>Disturbing</traitDef>
+        <traitDegree>0</traitDegree>
+        <chance>0.001</chance>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <ResearchSpeed>0.5</ResearchSpeed>
+          <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 圣水 -->
+  <HediffDef>
+    <defName>RatkinHolyWaterEffect</defName>
+    <label>blessed feeling</label>
+    <description>I feel blessed. A sense of peace and divine protection washes over the soul.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 0.8)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.333</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 灵智药 -->
+  <HediffDef>
+    <defName>RatkinIntelligenceEffect</defName>
+    <label>enhanced intellect</label>
+    <description>Mind clarity beyond comprehension. Thoughts become sharp and precise, but at what cost?</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.3, 0.3, 1.0)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>Dementia</hediffDef>
+        <severity>1.0</severity>
+        <chance>0.0001</chance>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 巨力药 -->
+  <HediffDef>
+    <defName>RatkinStrengthEffect</defName>
+    <label>enhanced strength</label>
+    <description>Muscles surge with incredible power. Melee combat effectiveness is greatly enhanced.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.3, 0.3)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-12.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MeleeDamageFactor>0.5</MeleeDamageFactor>
+          <MeleeHitChance>0.2</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 隐身药 -->
+  <HediffDef>
+    <defName>RatkinInvisibilityEffect</defName>
+    <label>invisibility</label>
+    <description>I'm invisible! The body blends seamlessly with the surroundings.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.8)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-24.0</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_Invisibility">
+        <invisibilityDuration>600</invisibilityDuration>
+        <detectionReduction>0.9</detectionReduction>
+        <breakOnAttack>true</breakOnAttack>
+        <breakOnDamage>true</breakOnDamage>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MeleeDodgeChance>0.8</MeleeDodgeChance>
+          <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 催情药 -->
+  <HediffDef>
+    <defName>RatkinLovePotionEffect</defName>
+    <label>passionate desire</label>
+    <description>Body feels so hot... Overwhelming romantic and physical desires flood the mind.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.7, 0.9)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <PawnBeauty>2.0</PawnBeauty>
+          <NegotiationAbility>0.5</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 鼠族狂暴药水效果 -->
+  <HediffDef>
+    <defName>RatkinBerserkEffect</defName>
+    <label>berserker rage</label>
+    <description>WAAAGH!! Uncontrollable fury consumes all rational thought.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.1, 0.1)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-24.0</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_BerserkControl">
+        <aggroRadius>10.0</aggroRadius>
+        <attackAllies>true</attackAllies>
+        <berserkState>Berserk</berserkState>
+        <rageIntensity>1.0</rageIntensity>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.2</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <MeleeDamageFactor>1.0</MeleeDamageFactor>
+          <MeleeHitChance>0.5</MeleeHitChance>
+          <IncomingDamageFactor>-0.5</IncomingDamageFactor>
+        </statOffsets>
+        <painOffset>-1.0</painOffset>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 鼠族洗脑药水效果 -->
+  <HediffDef>
+    <defName>RatkinBrainwashEffect</defName>
+    <label>empty mind</label>
+    <description>A hollow feeling of mental emptiness. The mind struggles to function normally after being wiped clean.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.4, 0.4)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.2</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_MemoryWipe">
+        <clearSocialMemories>true</clearSocialMemories>
+        <clearCulturalMemories>true</clearCulturalMemories>
+        <clearSkillMemories>false</clearSkillMemories>
+        <memoryWipeIntensity>1.0</memoryWipeIntensity>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.5</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

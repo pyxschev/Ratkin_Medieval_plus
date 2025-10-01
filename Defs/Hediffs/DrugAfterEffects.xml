@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 再生紊乱 - 治疗药水过量 -->
+  <HediffDef>
+    <defName>RatkinRegenerationDisorder</defName>
+    <label>regeneration disorder</label>
+    <description>The body's healing mechanisms have been disrupted by overuse of healing potions. Increased damage taken and reduced manipulation ability. Fatal at 100% severity.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.3, 0.3)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <lethalSeverity>1.0</lethalSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.2</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>minor</label>
+        <statOffsets>
+          <IncomingDamageFactor>0.1</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <label>moderate</label>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>0.25</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>severe</label>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.25</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>0.5</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <label>extreme</label>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.25</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>0.75</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.95</minSeverity>
+        <label>fatal</label>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.8</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>1.0</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 速度药崩溃 -->
+  <HediffDef>
+    <defName>RatkinSpeedPotionCrash</defName>
+    <label>speed potion crash</label>
+    <description>I feel drained... The body pays the price for the temporary burst of speed.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 0.8)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-8.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MoveSpeed>-0.3</MoveSpeed>
+          <WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 万灵药耐受 -->
+  <HediffDef>
+    <defName>RatkinPanaceaTolerance</defName>
+    <label>panacea tolerance</label>
+    <description>The body cannot handle another miracle so soon. Divine healing is temporarily rejected.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 0.7, 0.4)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.2</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <InjuryHealingFactor>-0.2</InjuryHealingFactor>
+          <ImmunityGainSpeed>-0.2</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 催情药尴尬 -->
+  <HediffDef>
+    <defName>RatkinLovePotionEmbarrassment</defName>
+    <label>embarrassment</label>
+    <description>Was that really me? Deep shame and regret about recent passionate behavior.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.4, 0.4)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <NegotiationAbility>-0.3</NegotiationAbility>
+          <SocialImpact>-0.2</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 巨力药虚弱 -->
+  <HediffDef>
+    <defName>RatkinStrengthPotionWeakness</defName>
+    <label>muscle fatigue</label>
+    <description>Overexerted muscles struggle to perform even basic tasks. The price of temporary power.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 0.5, 0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-8.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MeleeDamageFactor>-0.5</MeleeDamageFactor>
+          <MeleeHitChance>-0.4</MeleeHitChance>
+          <WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 狂暴药衰竭 -->
+  <HediffDef>
+    <defName>RatkinBerserkExhaustion</defName>
+    <label>berserker exhaustion</label>
+    <description>Complete mental and physical exhaustion after the rage subsides. The mind struggles to stay conscious.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-12.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.9</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 永久痴呆 - 灵智药副作用 -->
+  <HediffDef>
+    <defName>RatkinPermanentDementia</defName>
+    <label>induced dementia</label>
+    <description>The mind has been permanently damaged by overexertion. Thoughts are slow and confused.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.4, 0.4, 0.4)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <chronic>true</chronic>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ResearchSpeed>-0.8</ResearchSpeed>
+          <WorkSpeedGlobal>-0.6</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 永久怪诞不经 - 灵感药副作用 -->
+  <HediffDef>
+    <defName>RatkinEccentricMind</defName>
+    <label>eccentric behavior</label>
+    <description>The mind has been permanently altered by excessive inspiration. Strange and unpredictable behavior patterns emerge.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.7, 0.3, 0.9)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <chronic>true</chronic>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <SocialImpact>-0.3</SocialImpact>
+          <NegotiationAbility>-0.2</NegotiationAbility>
+          <ResearchSpeed>0.2</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 记忆丧失 - 洗脑药 -->
+  <HediffDef>
+    <defName>RatkinMemoryLoss</defName>
+    <label>memory erasure</label>
+    <description>All memories of relationships and cultural identity have been wiped clean. The mind is a blank slate.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.3, 0.3, 0.3)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <chronic>true</chronic>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <SocialImpact>-0.8</SocialImpact>
+          <NegotiationAbility>-0.5</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 康复药饥饿加剧 -->
+  <HediffDef>
+    <defName>RatkinRecoveryPotionHunger</defName>
+    <label>accelerated metabolism</label>
+    <description>The body's healing processes demand more energy. Hunger increases significantly.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.6, 0.4)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <hungerRateFactorOffset>0.25</hungerRateFactorOffset>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 解毒药恶心 -->
+  <HediffDef>
+    <defName>RatkinAntidoteNausea</defName>
+    <label>purging sickness</label>
+    <description>The violent process of toxin purging leaves the body weak and nauseous, but ultimately healthier.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.8, 0.6)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <vomitMtbDays>0.25</vomitMtbDays>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

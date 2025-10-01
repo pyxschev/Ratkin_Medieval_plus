@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Positive Drug Effects Thoughts -->
+  
+  <!-- Ratkin Recovery Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinRecoveryPotionThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinRecoveryPotionHigh</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>body pain is leaving me</label>
+        <description>The soothing warmth spreads through my body, healing feels faster.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Minor Healing Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinMinorHealingPotionThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinMinorHealingPotionHigh</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>wound pain lessened</label>
+        <description>The burning pain of wounds has lessened!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Medium Healing Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinMediumHealingPotionThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinMediumHealingPotionHigh</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>many wounds don't hurt</label>
+        <description>So many wounds don't hurt anymore!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Major Healing Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinMajorHealingPotionThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinMajorHealingPotionHigh</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>miraculous healing</label>
+        <description>Miraculous! My wounds are almost healed!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Speed Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinSpeedPotionThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinSpeedPotionHigh</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>wind beneath my feet</label>
+        <description>The wind beneath my feet urges me on!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Panacea Thought -->
+  <ThoughtDef>
+    <defName>RatkinPanaceaThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinPanaceaHigh</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>ailments purified</label>
+        <description>All ailments have been completely purified!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Inspiration Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinInspirationThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinInspirationEffect</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>I understand!</label>
+        <description>I understand! Brilliant insights flow through my mind.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Holy Water Thought -->
+  <ThoughtDef>
+    <defName>RatkinHolyWaterThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinHolyWaterEffect</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>feeling blessed</label>
+        <description>I feel blessed. Peace flows through my soul.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Invisibility Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinInvisibilityThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinInvisibilityEffect</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>I'm invisible!</label>
+        <description>I'm invisible! I can move unseen through the world.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Love Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinLovePotionThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinLovePotionEffect</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>body feels hot</label>
+        <description>Body feels so hot... overwhelming desires flood my mind.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Berserk Potion Thought -->
+  <ThoughtDef>
+    <defName>RatkinBerserkThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinBerserkEffect</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>WAAAGH!!</label>
+        <description>WAAAGH!! Incredible power flows through my veins!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Antidote Thought -->
+  <ThoughtDef>
+    <defName>RatkinAntidoteThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinAntidoteEffect</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>feeling better after vomiting</label>
+        <description>After vomiting... I feel better. The toxins are gone.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Negative Drug Effects Thoughts -->
+
+  <!-- Ratkin Resurrection Sickness Thought -->
+  <ThoughtDef>
+    <defName>RatkinResurrectionSicknessThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinResurrectionSickness</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>where did I come from?</label>
+        <description>Ugh... where did I come from? I feel lost and confused.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Poison Effect Thought -->
+  <ThoughtDef>
+    <defName>RatkinPoisonThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinPoisonEffect</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>rat poison!</label>
+        <description>Rat poison...? Rat poison! I feel terrible!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Speed Potion Crash Thought -->
+  <ThoughtDef>
+    <defName>RatkinSpeedCrashThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinSpeedPotionCrash</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>feel drained</label>
+        <description>I feel drained... my body has been emptied.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Love Potion Embarrassment Thought -->
+  <ThoughtDef>
+    <defName>RatkinLovePotionEmbarrassmentThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinLovePotionEmbarrassment</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>was that really me?</label>
+        <description>Was that really me? I'm so embarrassed by my behavior.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Brainwash Effect Thought -->
+  <ThoughtDef>
+    <defName>RatkinBrainwashThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinBrainwashEffect</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>empty mind</label>
+        <description>My mind feels hollow and empty. I can barely think.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Additional Aftereffect Thoughts -->
+
+  <!-- Ratkin Strength Potion Weakness Thought -->
+  <ThoughtDef>
+    <defName>RatkinStrengthWeaknessThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinStrengthPotionWeakness</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>muscle fatigue</label>
+        <description>My muscles ache and feel weak after the temporary strength.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Berserk Exhaustion Thought -->
+  <ThoughtDef>
+    <defName>RatkinBerserkExhaustionThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinBerserkExhaustion</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>completely exhausted</label>
+        <description>I'm completely exhausted after the berserker rage. Can barely stay conscious.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Panacea Tolerance Thought -->
+  <ThoughtDef>
+    <defName>RatkinPanaceaToleranceThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinPanaceaTolerance</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>divine rejection</label>
+        <description>My body rejects divine healing. I feel spiritually drained.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Antidote Nausea Thought -->
+  <ThoughtDef>
+    <defName>RatkinAntidoteNauseaThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinAntidoteNausea</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>purging sickness</label>
+        <description>The toxin purging process makes me feel sick and weak.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Recovery Potion Hunger Thought -->
+  <ThoughtDef>
+    <defName>RatkinRecoveryHungerThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinRecoveryPotionHunger</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>accelerated metabolism</label>
+        <description>My body is healing fast, but I'm getting hungry much quicker.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Permanent Effects Thoughts -->
+
+  <!-- Ratkin Permanent Dementia Thought -->
+  <ThoughtDef>
+    <defName>RatkinPermanentDementiaThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinPermanentDementia</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>mind damaged</label>
+        <description>My mind has been permanently damaged. Thoughts are slow and confused.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Eccentric Mind Thought -->
+  <ThoughtDef>
+    <defName>RatkinEccentricMindThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinEccentricMind</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>eccentric behavior</label>
+        <description>My mind works differently now. Others find my behavior strange.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Ratkin Memory Loss Thought -->
+  <ThoughtDef>
+    <defName>RatkinMemoryLossThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RatkinMemoryLoss</hediff>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>memories erased</label>
+        <description>All my memories of relationships and culture have been wiped away. I feel lost.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
