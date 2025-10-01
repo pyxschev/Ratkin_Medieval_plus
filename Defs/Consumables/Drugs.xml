@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Ratkin Recovery Potion -->
+  <!-- 再生药 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinRecoveryPotion</defName>
     <label>ratkin recovery potion</label>
@@ -43,7 +43,7 @@
 
   </ThingDef>
 
-  <!-- Ratkin Minor Healing Potion -->
+  <!-- 小回血 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinMinorHealingPotion</defName>
     <label>ratkin minor healing potion</label>
@@ -89,7 +89,7 @@
 
   </ThingDef>
 
-  <!-- Ratkin Medium Healing Potion -->
+  <!-- 中回血 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinMediumHealingPotion</defName>
     <label>ratkin medium healing potion</label>
@@ -135,7 +135,7 @@
 
   </ThingDef>
 
-  <!-- Ratkin Major Healing Potion -->
+  <!-- 大回血 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinMajorHealingPotion</defName>
     <label>ratkin major healing potion</label>
@@ -181,7 +181,7 @@
 
   </ThingDef>
 
-  <!-- Ratkin Speed Potion -->
+  <!-- 速度 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinSpeedPotion</defName>
     <label>ratkin speed potion</label>
@@ -223,7 +223,7 @@
 
   </ThingDef>
 
-  <!-- Ratkin Panacea -->
+  <!-- 万灵 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinPanacea</defName>
     <label>ratkin panacea</label>
@@ -270,7 +270,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Resurrection Potion -->
+  <!--  复活 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinResurrectionPotion</defName>
     <label>ratkin resurrection potion</label>
@@ -310,7 +310,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Rat Poison -->
+  <!-- 耗子药 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinRatPoison</defName>
     <label>ratkin rat poison</label>
@@ -353,7 +353,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Antidote -->
+  <!-- 解毒 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinAntidote</defName>
     <label>ratkin antidote</label>
@@ -402,7 +402,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Inspiration Potion -->
+  <!-- 灵感药水 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinInspirationPotion</defName>
     <label>ratkin inspiration potion</label>
@@ -446,7 +446,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Holy Water -->
+  <!-- 圣水 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinHolyWater</defName>
     <label>ratkin holy water</label>
@@ -486,7 +486,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Intelligence Potion -->
+  <!-- 智力 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinIntelligencePotion</defName>
     <label>ratkin intelligence potion</label>
@@ -527,7 +527,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Strength Potion -->
+  <!-- 力量 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinStrengthPotion</defName>
     <label>ratkin strength potion</label>
@@ -568,7 +568,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Invisibility Potion -->
+  <!-- 隐身 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinInvisibilityPotion</defName>
     <label>ratkin invisibility potion</label>
@@ -610,7 +610,7 @@
 
   </ThingDef>
 
-  <!-- Ratkin Love Potion -->
+  <!-- 爱情药水 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinLovePotion</defName>
     <label>ratkin love potion</label>
@@ -651,7 +651,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Berserk Potion -->
+  <!-- 狂暴 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinBerserkPotion</defName>
     <label>ratkin berserk potion</label>
@@ -692,7 +692,7 @@
     </ingestible>
   </ThingDef>
 
-  <!-- Ratkin Brainwash Potion -->
+  <!-- 洗脑药水 -->
   <ThingDef ParentName="DrugBase">
     <defName>RatkinBrainwashPotion</defName>
     <label>ratkin brainwash potion</label>
