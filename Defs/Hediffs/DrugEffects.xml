@@ -15,6 +15,10 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1.0</severityPerDay>
       </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinRecoveryPotionHunger</hediffDef>
+        <severity>1.0</severity>
+      </li>
     </comps>
     <stages>
       <li>
@@ -48,6 +52,10 @@
         <healOldWounds>false</healOldWounds>
         <healingQuality>1.0</healingQuality>
       </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinRegenerationDisorder</hediffDef>
+        <severity>0.2</severity>
+      </li>
     </comps>
     <stages>
       <li>
@@ -78,6 +86,10 @@
         <healInfections>false</healInfections>
         <healOldWounds>false</healOldWounds>
         <healingQuality>1.0</healingQuality>
+      </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinRegenerationDisorder</hediffDef>
+        <severity>0.4</severity>
       </li>
     </comps>
     <stages>
@@ -110,6 +122,10 @@
         <healOldWounds>false</healOldWounds>
         <healingQuality>1.0</healingQuality>
       </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinRegenerationDisorder</hediffDef>
+        <severity>0.7</severity>
+      </li>
     </comps>
     <stages>
       <li>
@@ -134,6 +150,10 @@
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-12.0</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinSpeedPotionCrash</hediffDef>
+        <severity>1.0</severity>
       </li>
     </comps>
     <stages>
@@ -160,6 +180,10 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.5</severityPerDay>
       </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinPanaceaTolerance</hediffDef>
+        <severity>1.0</severity>
+      </li>
     </comps>
     <stages>
       <li>
@@ -173,7 +197,7 @@
   </HediffDef>
 
   <!-- 复活虚弱 -->
-  <!-- <HediffDef>
+  <HediffDef>
     <defName>RatkinResurrectionSickness</defName>
     <label>resurrection sickness</label>
     <description>Ugh... where did I come from? The soul struggles to reconnect with the body after being forcibly returned from death.</description>
@@ -191,6 +215,10 @@
         <sicknessSeverity>1.0</sicknessSeverity>
         <clearSocialMemories>true</clearSocialMemories>
         <clearCulturalMemories>true</clearCulturalMemories>
+      </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinMemoryLoss</hediffDef>
+        <severity>1.0</severity>
       </li>
     </comps>
     <stages>
@@ -211,7 +239,7 @@
         </statOffsets>
       </li>
     </stages>
-  </HediffDef> -->
+  </HediffDef>
 
   <!-- 老鼠药 -->
   <HediffDef>
@@ -260,6 +288,10 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-2.0</severityPerDay>
       </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinAntidoteNausea</hediffDef>
+        <severity>1.0</severity>
+      </li>
     </comps>
     <stages>
       <li>
@@ -291,6 +323,11 @@
       <li Class="RkM.HediffCompProperties_GivePermanentTrait">
         <traitDef>Disturbing</traitDef>
         <traitDegree>0</traitDegree>
+        <chance>0.001</chance>
+      </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinEccentricMind</hediffDef>
+        <severity>0.001</severity>
         <chance>0.001</chance>
       </li>
     </comps>
@@ -381,6 +418,10 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-12.0</severityPerDay>
       </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinStrengthPotionWeakness</hediffDef>
+        <severity>1.0</severity>
+      </li>
     </comps>
     <stages>
       <li>
@@ -439,6 +480,10 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1.0</severityPerDay>
       </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinLovePotionEmbarrassment</hediffDef>
+        <severity>1.0</severity>
+      </li>
     </comps>
     <stages>
       <li>
@@ -470,6 +515,10 @@
         <attackAllies>true</attackAllies>
         <berserkState>Berserk</berserkState>
         <rageIntensity>1.0</rageIntensity>
+      </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinBerserkExhaustion</hediffDef>
+        <severity>1.0</severity>
       </li>
     </comps>
     <stages>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <!-- Ratkin Recovery Potion -->
@@ -34,18 +34,11 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinRecoveryPotionHigh</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinRecoveryPotion</toleranceChemical>
         </li>
       </outcomeDoers>
     </ingestible>
-    <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinRecoveryPotionHunger</hediffDef>
-        <severity>1.0</severity>
-      </li>
-    </comps>
+
   </ThingDef>
 
   <!-- Ratkin Minor Healing Potion -->
@@ -81,8 +74,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinMinorHealingPotionHigh</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinHealingPotion</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
@@ -91,12 +82,7 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinRegenerationDisorder</hediffDef>
-        <severity>0.2</severity>
-      </li>
-    </comps>
+
   </ThingDef>
 
   <!-- Ratkin Medium Healing Potion -->
@@ -132,8 +118,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinMediumHealingPotionHigh</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinHealingPotion</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
@@ -142,12 +126,7 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinRegenerationDisorder</hediffDef>
-        <severity>0.4</severity>
-      </li>
-    </comps>
+
   </ThingDef>
 
   <!-- Ratkin Major Healing Potion -->
@@ -183,8 +162,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinMajorHealingPotionHigh</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinHealingPotion</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
@@ -193,12 +170,7 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinRegenerationDisorder</hediffDef>
-        <severity>0.7</severity>
-      </li>
-    </comps>
+
   </ThingDef>
 
   <!-- Ratkin Speed Potion -->
@@ -234,18 +206,11 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinSpeedPotionHigh</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinSpeedPotion</toleranceChemical>
         </li>
       </outcomeDoers>
     </ingestible>
-    <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinSpeedPotionCrash</hediffDef>
-        <severity>1.0</severity>
-      </li>
-    </comps>
+
   </ThingDef>
 
   <!-- Ratkin Panacea -->
@@ -281,8 +246,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinPanaceaHigh</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinPanacea</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_RemoveHediff">
@@ -293,12 +256,6 @@
         </li>
       </outcomeDoers>
     </ingestible>
-    <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinPanaceaTolerance</hediffDef>
-        <severity>1.0</severity>
-      </li>
-    </comps>
   </ThingDef>
 
   <!-- Ratkin Resurrection Potion -->
@@ -334,15 +291,10 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinResurrectionSickness</hediffDef>
-          <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinMemoryLoss</hediffDef>
-        <severity>1.0</severity>
       </li>
     </comps>
   </ThingDef>
@@ -380,12 +332,9 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinPoisonEffect</hediffDef>
-          <severity>1.0</severity>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>ToxicBuildup</hediffDef>
-          <severity>0.8</severity>
         </li>
       </outcomeDoers>
     </ingestible>
@@ -424,8 +373,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinAntidoteEffect</hediffDef>
-          <severity>1.0</severity>
         </li>
         <li Class="IngestionOutcomeDoer_RemoveHediff">
           <hediffDef>ToxicBuildup</hediffDef>
@@ -434,14 +381,10 @@
           <hediffDef>FoodPoisoning</hediffDef>
         </li>
         <li Class="IngestionOutcomeDoer_RemoveHediff">
-          <hediffDef>RatkinPoisonEffect</hediffDef>
         </li>
       </outcomeDoers>
     </ingestible>
     <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinAntidoteNausea</hediffDef>
-        <severity>1.0</severity>
       </li>
     </comps>
   </ThingDef>
@@ -479,8 +422,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinInspirationEffect</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinInspirationPotion</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_GiveRandomInspiration">
@@ -489,9 +430,6 @@
       </outcomeDoers>
     </ingestible>
     <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinEccentricMind</hediffDef>
-        <severity>0.001</severity>
       </li>
     </comps>
   </ThingDef>
@@ -529,8 +467,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinHolyWaterEffect</hediffDef>
-          <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
@@ -569,16 +505,11 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinIntelligenceEffect</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinIntelligencePotion</toleranceChemical>
         </li>
       </outcomeDoers>
     </ingestible>
     <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinPermanentDementia</hediffDef>
-        <severity>0.0001</severity>
       </li>
     </comps>
   </ThingDef>
@@ -616,16 +547,11 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinStrengthEffect</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinStrengthPotion</toleranceChemical>
         </li>
       </outcomeDoers>
     </ingestible>
     <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinStrengthPotionWeakness</hediffDef>
-        <severity>1.0</severity>
       </li>
     </comps>
   </ThingDef>
@@ -663,8 +589,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinInvisibilityEffect</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinInvisibilityPotion</toleranceChemical>
         </li>
       </outcomeDoers>
@@ -705,16 +629,11 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinLovePotionEffect</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinLovePotion</toleranceChemical>
         </li>
       </outcomeDoers>
     </ingestible>
     <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinLovePotionEmbarrassment</hediffDef>
-        <severity>1.0</severity>
       </li>
     </comps>
   </ThingDef>
@@ -752,16 +671,11 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinBerserkEffect</hediffDef>
-          <severity>1.0</severity>
           <toleranceChemical>RatkinBerserkPotion</toleranceChemical>
         </li>
       </outcomeDoers>
     </ingestible>
     <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinBerserkExhaustion</hediffDef>
-        <severity>1.0</severity>
       </li>
     </comps>
   </ThingDef>
@@ -799,15 +713,10 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinBrainwashEffect</hediffDef>
-          <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
     <comps>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinMemoryLoss</hediffDef>
-        <severity>1.0</severity>
       </li>
     </comps>
   </ThingDef>
