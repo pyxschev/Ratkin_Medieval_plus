@@ -83,10 +83,10 @@ namespace RkM
             if (base.Pawn?.health?.hediffSet != null)
             {
                 // 创建打破效果
-                if (base.Pawn.Spawned)
-                {
-                    MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_ExplosionFlash, 0.8f);
-                }
+                //if (base.Pawn.Spawned)
+                //{
+                //    MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_ExplosionFlash, 0.8f);
+                //}
                 
                 // 移除隐身hediff
                 base.Pawn.health.RemoveHediff(parent);
@@ -98,7 +98,7 @@ namespace RkM
             if (base.Pawn.Spawned)
             {
                 // 创建可见效果
-                MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_ExplosionFlash, 0.5f);
+                //MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_ExplosionFlash, 0.5f);
                 base.Pawn.Drawer.renderer.SetAllGraphicsDirty();
             }
         }
@@ -108,7 +108,7 @@ namespace RkM
             if (base.Pawn.Spawned)
             {
                 // 创建隐身效果
-                MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_PsycastSkipFlashEntry, 0.3f);
+                //MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_PsycastSkipFlashEntry, 0.3f);
                 base.Pawn.Drawer.renderer.SetAllGraphicsDirty();
             }
         }

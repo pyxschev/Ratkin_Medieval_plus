@@ -14,7 +14,12 @@ namespace RkM
         public float chance = 1.0f;            
         public bool triggerOnce = true;
         public bool triggerImmediately = true; 
-        public bool endWithHediff = true;      
+        public bool endWithHediff = true;
+
+        public HediffCompProperties_MentalStateGiver()
+        {
+            compClass = typeof(HediffComp_MentalStateGiver);
+        }
     }
 
     public class HediffComp_MentalStateGiver : HediffComp

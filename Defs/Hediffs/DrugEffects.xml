@@ -449,10 +449,9 @@
         <severityPerDay>-24.0</severityPerDay>
       </li>
       <li Class="RkM.HediffCompProperties_Invisibility">
-        <invisibilityDuration>600</invisibilityDuration>
         <detectionReduction>0.9</detectionReduction>
-        <breakOnAttack>true</breakOnAttack>
         <breakOnDamage>true</breakOnDamage>
+        <alphaWhenInvisible>0.2</alphaWhenInvisible>
       </li>
     </comps>
     <stages>

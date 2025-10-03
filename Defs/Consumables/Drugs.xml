@@ -43,7 +43,8 @@
 
   </ThingDef>
 
-  <!-- 小回血 -->
+  <!-- 小回血 - TEMPORARILY COMMENTED OUT - FUNCTIONALITY NOT YET IMPLEMENTED -->
+  <!--
   <ThingDef ParentName="DrugBase">
     <defName>RatkinMinorHealingPotion</defName>
     <label>ratkin minor healing potion</label>
@@ -78,7 +79,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RatkinMinorHealingPotionHigh</hediffDef>
           <severity>1.0</severity>
-          <!-- <toleranceChemical>RatkinHealingPotion</toleranceChemical> -->
+          <toleranceChemical>RatkinHealingPotion</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -88,8 +89,10 @@
     </ingestible>
 
   </ThingDef>
+  -->
 
-  <!-- 中回血 -->
+  <!-- 中回血 - TEMPORARILY COMMENTED OUT - FUNCTIONALITY NOT YET IMPLEMENTED -->
+  <!--
   <ThingDef ParentName="DrugBase">
     <defName>RatkinMediumHealingPotion</defName>
     <label>ratkin medium healing potion</label>
@@ -124,7 +127,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RatkinMediumHealingPotionHigh</hediffDef>
           <severity>1.0</severity>
-          <!-- <toleranceChemical>RatkinHealingPotion</toleranceChemical> -->
+          <toleranceChemical>RatkinHealingPotion</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -134,8 +137,10 @@
     </ingestible>
 
   </ThingDef>
+  -->
 
-  <!-- 大回血 -->
+  <!-- 大回血 - TEMPORARILY COMMENTED OUT - FUNCTIONALITY NOT YET IMPLEMENTED -->
+  <!--
   <ThingDef ParentName="DrugBase">
     <defName>RatkinMajorHealingPotion</defName>
     <label>ratkin major healing potion</label>
@@ -170,7 +175,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RatkinMajorHealingPotionHigh</hediffDef>
           <severity>1.0</severity>
-          <!-- <toleranceChemical>RatkinHealingPotion</toleranceChemical> -->
+          <toleranceChemical>RatkinHealingPotion</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -180,6 +185,7 @@
     </ingestible>
 
   </ThingDef>
+  -->
 
   <!-- 速度 -->
   <ThingDef ParentName="DrugBase">
@@ -260,17 +266,12 @@
           <severity>1.0</severity>
           <!-- <toleranceChemical>RatkinPanacea</toleranceChemical> -->
         </li>
-        <li Class="IngestionOutcomeDoer_RemoveHediff">
-          <hediffDef>ToxicBuildup</hediffDef>
-        </li>
-        <li Class="IngestionOutcomeDoer_RemoveHediff">
-          <hediffDef>FoodPoisoning</hediffDef>
-        </li>
+        <!-- Note: Hediff removal (ToxicBuildup, FoodPoisoning) should be handled by the RatkinPanaceaHigh hediff comp -->
       </outcomeDoers>
     </ingestible>
   </ThingDef>
 
-  <!--  复活 -->
+  <!--  复活 - TEMPORARILY COMMENTED OUT - FUNCTIONALITY NOT YET IMPLEMENTED -->
   <!-- <ThingDef ParentName="DrugBase">
     <defName>RatkinResurrectionPotion</defName>
     <label>ratkin resurrection potion</label>
@@ -389,15 +390,7 @@
           <hediffDef>RatkinAntidoteEffect</hediffDef>
           <severity>1.0</severity>
         </li>
-        <li Class="IngestionOutcomeDoer_RemoveHediff">
-          <hediffDef>ToxicBuildup</hediffDef>
-        </li>
-        <li Class="IngestionOutcomeDoer_RemoveHediff">
-          <hediffDef>FoodPoisoning</hediffDef>
-        </li>
-        <li Class="IngestionOutcomeDoer_RemoveHediff">
-          <hediffDef>RatkinPoisonEffect</hediffDef>
-        </li>
+        <!-- Note: Hediff removal (ToxicBuildup, FoodPoisoning, RatkinPoisonEffect) should be handled by the RatkinAntidoteEffect hediff comp -->
       </outcomeDoers>
     </ingestible>
   </ThingDef>
@@ -439,9 +432,10 @@
           <severity>1.0</severity>
           <!-- <toleranceChemical>RatkinInspirationPotion</toleranceChemical> -->
         </li>
-        <li Class="IngestionOutcomeDoer_GiveRandomInspiration">
+        <!-- TODO: Implement custom IngestionOutcomeDoer_GiveRandomInspiration class -->
+        <!-- <li Class="RkM.IngestionOutcomeDoer_GiveRandomInspiration">
           <chance>1.0</chance>
-        </li>
+        </li> -->
       </outcomeDoers>
     </ingestible>
   </ThingDef>

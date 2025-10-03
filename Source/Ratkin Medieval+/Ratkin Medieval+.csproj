@@ -60,6 +60,8 @@
   <ItemGroup>
     <Compile Include="HediffComps\HediffComp_giveAfterEffect.cs" />
     <Compile Include="HediffComps\HediffComp_givePermanentTrait.cs" />
+    <Compile Include="HediffComps\HediffComp_InstantHeal.cs" />
+    <Compile Include="HediffComps\HediffComp_Invisibility.cs" />
     <Compile Include="HediffComps\HediffComp_MentalStateGiver.cs" />
     <Compile Include="ThingComps\CompGiveHediffNearby.cs" />
   </ItemGroup>
