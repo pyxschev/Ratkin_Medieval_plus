@@ -7,7 +7,7 @@
     <label>ratkin recovery potion</label>
     <description>A viscous potion glowing with a soft grass-green light, emitting the gentle aroma of sage and licorice. When consumed, it feels like a warm current spreads from the stomach to the limbs, accelerating the body's natural recovery.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Recovery</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.7, 1.0, 0.7)</color>
     </graphicData>
@@ -34,9 +34,9 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinRecoveryEffect</hediffDef>
+          <hediffDef>RatkinRecoveryPotionHigh</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinRecoveryPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinRecoveryPotion</toleranceChemical> -->
         </li>
       </outcomeDoers>
     </ingestible>
@@ -49,7 +49,7 @@
     <label>ratkin minor healing potion</label>
     <description>A rather murky red potion. It can quickly stop bleeding and relieve minor injuries, but over-dependence will disrupt the body's self-healing mechanisms.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Healing_Minor</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(1.0, 0.6, 0.6)</color>
     </graphicData>
@@ -76,9 +76,9 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinMinorHealingEffect</hediffDef>
+          <hediffDef>RatkinMinorHealingPotionHigh</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinHealingPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinHealingPotion</toleranceChemical> -->
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -95,7 +95,7 @@
     <label>ratkin medium healing potion</label>
     <description>A deep red potion thick as blood, shimmering with the metallic luster characteristic of dragon's blood resin. It can treat multiple wounds simultaneously, but the price is a more intense physical burden.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Healing_Medium</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.8, 0.2, 0.2)</color>
     </graphicData>
@@ -122,9 +122,9 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinMediumHealingEffect</hediffDef>
+          <hediffDef>RatkinMediumHealingPotionHigh</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinHealingPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinHealingPotion</toleranceChemical> -->
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -141,7 +141,7 @@
     <label>ratkin major healing potion</label>
     <description>A potion as dazzling as liquid ruby, containing near-miraculous healing power, but every use is a bargain with death itself.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Healing_Major</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.6, 0.1, 0.1)</color>
     </graphicData>
@@ -168,9 +168,9 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinMajorHealingEffect</hediffDef>
+          <hediffDef>RatkinMajorHealingPotionHigh</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinHealingPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinHealingPotion</toleranceChemical> -->
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -187,7 +187,7 @@
     <label>ratkin speed potion</label>
     <description>A flickering blue-green potion that makes your heart race just from smelling it.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Speed</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.4, 0.8, 0.8)</color>
     </graphicData>
@@ -214,9 +214,9 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinSpeedEffect</hediffDef>
+          <hediffDef>RatkinSpeedPotionHigh</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinSpeedPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinSpeedPotion</toleranceChemical> -->
         </li>
       </outcomeDoers>
     </ingestible>
@@ -229,7 +229,7 @@
     <label>ratkin panacea</label>
     <description>A viscous liquid emitting soft green light, with what appears to be stardust flowing within. It can purify all mortal ailments, but the body cannot withstand a second miracle in a short time.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Panacea</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.6, 1.0, 0.6)</color>
     </graphicData>
@@ -256,9 +256,9 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinPanaceaEffect</hediffDef>
+          <hediffDef>RatkinPanaceaHigh</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinPanacea</toleranceChemical>
+          <!-- <toleranceChemical>RatkinPanacea</toleranceChemical> -->
         </li>
         <li Class="IngestionOutcomeDoer_RemoveHediff">
           <hediffDef>ToxicBuildup</hediffDef>
@@ -271,12 +271,12 @@
   </ThingDef>
 
   <!--  复活 -->
-  <ThingDef ParentName="DrugBase">
+  <!-- <ThingDef ParentName="DrugBase">
     <defName>RatkinResurrectionPotion</defName>
     <label>ratkin resurrection potion</label>
     <description>A potion black as the abyss, yet flickering with phosphorescent light, this ominous brew desecrates the laws of death, forcibly calling back the souls of the departed.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Resurrection</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.2, 0.2, 0.2)</color>
     </graphicData>
@@ -303,12 +303,12 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinResurrectionEffect</hediffDef>
+          <hediffDef>RatkinResurrectionSickness</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
     </ingestible>
-  </ThingDef>
+  </ThingDef> -->
 
   <!-- 耗子药 -->
   <ThingDef ParentName="DrugBase">
@@ -316,7 +316,7 @@
     <label>ratkin rat poison</label>
     <description>A jar emitting sweet fruity fragrance mixed with a faint bitter almond scent from the murky liquid within.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Poison</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.6, 0.4, 0.6)</color>
     </graphicData>
@@ -343,7 +343,7 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinRatPoisonEffect</hediffDef>
+          <hediffDef>RatkinPoisonEffect</hediffDef>
           <severity>1.0</severity>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -359,7 +359,7 @@
     <label>ratkin antidote</label>
     <description>A murky green potion with a strong minty coolness and wormwood scent. It can neutralize toxins in the body, but the process causes severe discomfort.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Antidote</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.4, 0.8, 0.4)</color>
     </graphicData>
@@ -396,7 +396,7 @@
           <hediffDef>FoodPoisoning</hediffDef>
         </li>
         <li Class="IngestionOutcomeDoer_RemoveHediff">
-          <hediffDef>RatkinRatPoisonEffect</hediffDef>
+          <hediffDef>RatkinPoisonEffect</hediffDef>
         </li>
       </outcomeDoers>
     </ingestible>
@@ -408,7 +408,7 @@
     <label>ratkin inspiration potion</label>
     <description>A blue potion that can inspire brilliance when consumed, but one may also become lost in it.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Inspiration</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.4, 0.4, 1.0)</color>
     </graphicData>
@@ -437,7 +437,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RatkinInspirationEffect</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinInspirationPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinInspirationPotion</toleranceChemical> -->
         </li>
         <li Class="IngestionOutcomeDoer_GiveRandomInspiration">
           <chance>1.0</chance>
@@ -452,7 +452,7 @@
     <label>ratkin holy water</label>
     <description>A jar of salt water blessed by a priest, emitting a faint lavender fragrance. It can bring only peace to the soul.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Holy</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.9, 0.9, 1.0)</color>
     </graphicData>
@@ -492,7 +492,7 @@
     <label>ratkin intelligence potion</label>
     <description>A deep blue potion that makes thinking incredibly clear and sharp after consumption, but overexerting the mind may result in eternal emptiness.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Intelligence</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.2, 0.2, 1.0)</color>
     </graphicData>
@@ -521,7 +521,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RatkinIntelligenceEffect</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinIntelligencePotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinIntelligencePotion</toleranceChemical> -->
         </li>
       </outcomeDoers>
     </ingestible>
@@ -533,7 +533,7 @@
     <label>ratkin strength potion</label>
     <description>A scorching, lava-like dark red viscous potion. After consumption, muscles instantly swell with tremendous power.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Strength</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.8, 0.2, 0.2)</color>
     </graphicData>
@@ -562,7 +562,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RatkinStrengthEffect</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinStrengthPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinStrengthPotion</toleranceChemical> -->
         </li>
       </outcomeDoers>
     </ingestible>
@@ -574,7 +574,7 @@
     <label>ratkin invisibility potion</label>
     <description>A nearly transparent potion that only shows ripples when shaken. After consumption, one feels the body gradually blending into the surrounding environment.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Invisibility</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.7, 0.7, 0.7)</color>
     </graphicData>
@@ -603,7 +603,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RatkinInvisibilityEffect</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinInvisibilityPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinInvisibilityPotion</toleranceChemical> -->
         </li>
       </outcomeDoers>
     </ingestible>
@@ -616,7 +616,7 @@
     <label>ratkin love potion</label>
     <description>A pink, heart-shaped potion emitting rich lavender and mysterious sweet fragrance that can greatly stir the user's desires.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Love</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(1.0, 0.6, 0.8)</color>
     </graphicData>
@@ -643,9 +643,9 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinLoveEffect</hediffDef>
+          <hediffDef>RatkinLovePotionEffect</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinLovePotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinLovePotion</toleranceChemical> -->
         </li>
       </outcomeDoers>
     </ingestible>
@@ -657,7 +657,7 @@
     <label>ratkin berserk potion</label>
     <description>A black-red potion that seems to be boiling, emitting sulfur and bloody scents. After consumption, it completely unleashes the inner beast, attacking friend and foe alike.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Berserk</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.6, 0.1, 0.1)</color>
     </graphicData>
@@ -686,7 +686,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>RatkinBerserkEffect</hediffDef>
           <severity>1.0</severity>
-          <toleranceChemical>RatkinBerserkPotion</toleranceChemical>
+          <!-- <toleranceChemical>RatkinBerserkPotion</toleranceChemical> -->
         </li>
       </outcomeDoers>
     </ingestible>
@@ -698,7 +698,7 @@
     <label>ratkin brainwash potion</label>
     <description>A potion of strange color, constantly churning with chaotic bubbles. Made from forbidden herbs and twisted magic, it can completely wash away a soul's past, leaving a blank canvas.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/GoJuice</texPath>
+      <texPath>Graybox/Things/Item_Potion_Brainwash</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <color>(0.5, 0.3, 0.5)</color>
     </graphicData>

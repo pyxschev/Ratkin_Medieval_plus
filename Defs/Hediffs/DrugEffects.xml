@@ -500,7 +500,7 @@
   <HediffDef>
     <defName>RatkinBerserkEffect</defName>
     <label>berserker rage</label>
-    <description>WAAAGH!! Uncontrollable fury consumes all rational thought.</description>
+    <description>WAAAGH!! Uncontrollable RAGE!.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.8, 0.1, 0.1)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
@@ -510,11 +510,12 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-24.0</severityPerDay>
       </li>
-      <li Class="RkM.HediffCompProperties_BerserkControl">
-        <aggroRadius>10.0</aggroRadius>
-        <attackAllies>true</attackAllies>
-        <berserkState>Berserk</berserkState>
-        <rageIntensity>1.0</rageIntensity>
+      <li Class="RkM.HediffCompProperties_MentalStateGiver">
+        <mentalState>Berserk</mentalState>
+        <chance>1.0</chance>
+        <triggerOnce>true</triggerOnce>
+        <triggerImmediately>true</triggerImmediately>
+        <endWithHediff>true</endWithHediff>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinBerserkExhaustion</hediffDef>
