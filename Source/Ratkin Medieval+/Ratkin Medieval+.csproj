@@ -62,7 +62,11 @@
     <Compile Include="HediffComps\HediffComp_givePermanentTrait.cs" />
     <Compile Include="HediffComps\HediffComp_InstantHeal.cs" />
     <Compile Include="HediffComps\HediffComp_Invisibility.cs" />
+    <Compile Include="HediffComps\HediffComp_MemoryWipe.cs" />
     <Compile Include="HediffComps\HediffComp_MentalStateGiver.cs" />
+    <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_CureAll.cs" />
+    <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_GiveRandomInspiration.cs" />
+    <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_RemoveSpecificHediffs.cs" />
     <Compile Include="ThingComps\CompGiveHediffNearby.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
