@@ -19,6 +19,11 @@ namespace RkM
         public bool resetIdeology = true;            // 重置意识形态确信度
         public bool removeLoyaltyMark = true;        // 移除死忠标记
         public float memoryWipeIntensity = 1.0f;     // 每次清除的强度
+
+        public HediffCompProperties_MemoryWipe()
+        {
+            this.compClass = typeof(HediffComp_MemoryWipe);
+        }
     }
 
     public class HediffComp_MemoryWipe : HediffComp
@@ -108,7 +113,8 @@ namespace RkM
             // 重置意识形态确信度
             if (ModsConfig.IdeologyActive && Props.resetIdeology && pawn.ideo != null)
             {
-                pawn.ideo.Certainty = Mathf.Max(0f, pawn.ideo.Certainty - 0.1f);
+                float reductionAmount = 0.1f;
+                pawn.ideo.OffsetCertainty(-reductionAmount);
             }
         }
 

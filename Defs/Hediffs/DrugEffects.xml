@@ -197,7 +197,7 @@
   </HediffDef>
 
   <!-- 复活虚弱 -->
-  <HediffDef>
+  <!-- <HediffDef>
     <defName>RatkinResurrectionSickness</defName>
     <label>resurrection sickness</label>
     <description>Ugh... where did I come from? The soul struggles to reconnect with the body after being forcibly returned from death.</description>
@@ -239,7 +239,7 @@
         </statOffsets>
       </li>
     </stages>
-  </HediffDef>
+  </HediffDef> -->
 
   <!-- 老鼠药 -->
   <HediffDef>

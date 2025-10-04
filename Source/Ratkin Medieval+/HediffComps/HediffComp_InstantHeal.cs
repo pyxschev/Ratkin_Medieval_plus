@@ -14,6 +14,11 @@ namespace RkM
         public bool healInfections = false;
         public bool healOldWounds = false;
         public float healingQuality = 1.0f;
+
+        public HediffCompProperties_InstantHeal()
+        {
+            compClass = typeof(HediffComp_InstantHeal);
+        }
     }
 
     public class HediffComp_InstantHeal : HediffComp

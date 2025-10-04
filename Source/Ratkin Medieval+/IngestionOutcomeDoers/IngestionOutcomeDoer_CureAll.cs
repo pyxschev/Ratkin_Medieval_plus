@@ -60,7 +60,10 @@ namespace RkM
                 return true;
 
             // 疾病类
-            if (cureDiseases && hediff.def.makesSick)
+            if (cureDiseases && (hediff.def.tendable || hediff.def.chronic || 
+                                hediff.def.defName.Contains("Disease") ||
+                                hediff.def.isInfection ||
+                                hediff.def.defaultLabelColor == UnityEngine.Color.red))
                 return true;
 
             // 成瘾类
