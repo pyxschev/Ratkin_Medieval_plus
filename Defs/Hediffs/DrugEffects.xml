@@ -277,31 +277,56 @@
   <!-- 解毒药 -->
   <HediffDef>
     <defName>RatkinAntidoteEffect</defName>
-    <label>antidote recovery</label>
-    <description>After vomiting... I feel better. My body has purged the toxins and is recovering.</description>
+    <label>violent nausea</label>
+    <description>The antidote is causing intense nausea and vomiting as the body purges toxins. This unpleasant but necessary process will cleanse the system.</description>
     <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <defaultLabelColor>(0.7, 0.8, 0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
-    <isBad>false</isBad>
+    <isBad>true</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-2.0</severityPerDay>
+        <severityPerDay>-12.0</severityPerDay>
+      </li>
+      <li Class="RkM.HediffCompProperties_RemoveSpecificHediffs">
+        <hediffsToRemove>
+          <li>ToxicBuildup</li>
+          <li>FoodPoisoning</li>
+          <li>RatkinPoisonEffect</li>
+        </hediffsToRemove>
+        <removeOnAdd>true</removeOnAdd>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinAntidoteNausea</hediffDef>
+        <hediffDef>RatkinAntidoteRecovery</hediffDef>
         <severity>1.0</severity>
+        <chance>1.0</chance>
       </li>
     </comps>
     <stages>
       <li>
         <minSeverity>0</minSeverity>
+        <!-- Intense vomiting phase - short but violent -->
+        <vomitMtbDays>0.01</vomitMtbDays>
         <capMods>
+          <li>  
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
           <li>
-            <capacity>BloodFiltration</capacity>
-            <offset>0.3</offset>
+            <capacity>Moving</capacity>
+            <offset>-0.3</offset>
           </li>
         </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.9</WorkSpeedGlobal>
+          <MoveSpeed>-0.7</MoveSpeed>
+        </statOffsets>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Nausea</hediff>
+            <mtbDays>0.1</mtbDays>
+          </li>
+        </hediffGivers>
       </li>
     </stages>
   </HediffDef>
@@ -321,7 +346,7 @@
         <severityPerDay>-0.333</severityPerDay>
       </li>
       <li Class="RkM.HediffCompProperties_GivePermanentTrait">
-        <traitDef>Disturbing</traitDef>
+        <traitDef>Nudist</traitDef>
         <traitDegree>0</traitDegree>
         <chance>0.001</chance>
       </li>
@@ -448,10 +473,16 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-24.0</severityPerDay>
       </li>
-      <li Class="RkM.HediffCompProperties_Invisibility">
+      <li Class="RkM.HediffCompProperties_RatkinInvisibility">
+        <!-- Vanilla invisibility properties -->
+        <fadeDurationTicks>180</fadeDurationTicks>
+        <recoverFromDisruptedTicks>300</recoverFromDisruptedTicks>
+        <visibleToPlayer>false</visibleToPlayer>
+        <affectedByDisruptor>true</affectedByDisruptor>
+        <!-- Custom properties -->
         <detectionReduction>0.9</detectionReduction>
         <breakOnDamage>true</breakOnDamage>
-        <alphaWhenInvisible>0.2</alphaWhenInvisible>
+        <customAlpha>0.2</customAlpha>
       </li>
     </comps>
     <stages>

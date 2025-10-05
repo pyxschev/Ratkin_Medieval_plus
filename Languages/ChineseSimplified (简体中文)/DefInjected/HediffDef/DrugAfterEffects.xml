@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: toxin-free recovery -->
+  <RatkinAntidoteRecovery.label>TODO</RatkinAntidoteRecovery.label>
+  <!-- EN: The violent purging is complete and all toxins have been expelled. The body feels remarkably clean and refreshed, with enhanced blood filtration capabilities. -->
+  <RatkinAntidoteRecovery.description>TODO</RatkinAntidoteRecovery.description>
+  <!-- EN: early recovery -->
+  <RatkinAntidoteRecovery.stages.early_recovery.label>TODO</RatkinAntidoteRecovery.stages.early_recovery.label>
+  <!-- EN: good recovery -->
+  <RatkinAntidoteRecovery.stages.good_recovery.label>TODO</RatkinAntidoteRecovery.stages.good_recovery.label>
+  <!-- EN: excellent recovery -->
+  <RatkinAntidoteRecovery.stages.excellent_recovery.label>TODO</RatkinAntidoteRecovery.stages.excellent_recovery.label>
+  
+  <!-- EN: berserker exhaustion -->
+  <RatkinBerserkExhaustion.label>TODO</RatkinBerserkExhaustion.label>
+  <!-- EN: Complete mental and physical exhaustion after the rage subsides. The mind struggles to stay conscious. -->
+  <RatkinBerserkExhaustion.description>TODO</RatkinBerserkExhaustion.description>
+  
+  <!-- EN: eccentric behavior -->
+  <RatkinEccentricMind.label>TODO</RatkinEccentricMind.label>
+  <!-- EN: The mind has been permanently altered by excessive inspiration. Strange and unpredictable behavior patterns emerge. -->
+  <RatkinEccentricMind.description>TODO</RatkinEccentricMind.description>
+  
+  <!-- EN: embarrassment -->
+  <RatkinLovePotionEmbarrassment.label>TODO</RatkinLovePotionEmbarrassment.label>
+  <!-- EN: Was that really me? Deep shame and regret about recent passionate behavior. -->
+  <RatkinLovePotionEmbarrassment.description>TODO</RatkinLovePotionEmbarrassment.description>
+  
+  <!-- EN: memory erasure -->
+  <RatkinMemoryLoss.label>TODO</RatkinMemoryLoss.label>
+  <!-- EN: All memories of relationships and cultural identity have been wiped clean. The mind is a blank slate. -->
+  <RatkinMemoryLoss.description>TODO</RatkinMemoryLoss.description>
+  
+  <!-- EN: panacea tolerance -->
+  <RatkinPanaceaTolerance.label>TODO</RatkinPanaceaTolerance.label>
+  <!-- EN: The body cannot handle another miracle so soon. Divine healing is temporarily rejected. -->
+  <RatkinPanaceaTolerance.description>TODO</RatkinPanaceaTolerance.description>
+  
+  <!-- EN: induced dementia -->
+  <RatkinPermanentDementia.label>TODO</RatkinPermanentDementia.label>
+  <!-- EN: The mind has been permanently damaged by overexertion. Thoughts are slow and confused. -->
+  <RatkinPermanentDementia.description>TODO</RatkinPermanentDementia.description>
+  
+  <!-- EN: accelerated metabolism -->
+  <RatkinRecoveryPotionHunger.label>TODO</RatkinRecoveryPotionHunger.label>
+  <!-- EN: The body's healing processes demand more energy. Hunger increases significantly. -->
+  <RatkinRecoveryPotionHunger.description>TODO</RatkinRecoveryPotionHunger.description>
+  
+  <!-- EN: regeneration disorder -->
+  <RatkinRegenerationDisorder.label>TODO</RatkinRegenerationDisorder.label>
+  <!-- EN: The body's healing mechanisms have been disrupted by overuse of healing potions. Increased damage taken and reduced manipulation ability. Fatal at 100% severity. -->
+  <RatkinRegenerationDisorder.description>TODO</RatkinRegenerationDisorder.description>
+  <!-- EN: minor -->
+  <RatkinRegenerationDisorder.stages.minor.label>TODO</RatkinRegenerationDisorder.stages.minor.label>
+  <!-- EN: moderate -->
+  <RatkinRegenerationDisorder.stages.moderate.label>TODO</RatkinRegenerationDisorder.stages.moderate.label>
+  <!-- EN: severe -->
+  <RatkinRegenerationDisorder.stages.severe.label>TODO</RatkinRegenerationDisorder.stages.severe.label>
+  <!-- EN: extreme -->
+  <RatkinRegenerationDisorder.stages.extreme.label>TODO</RatkinRegenerationDisorder.stages.extreme.label>
+  <!-- EN: fatal -->
+  <RatkinRegenerationDisorder.stages.fatal.label>TODO</RatkinRegenerationDisorder.stages.fatal.label>
+  
+  <!-- EN: speed potion crash -->
+  <RatkinSpeedPotionCrash.label>TODO</RatkinSpeedPotionCrash.label>
+  <!-- EN: I feel drained... The body pays the price for the temporary burst of speed. -->
+  <RatkinSpeedPotionCrash.description>TODO</RatkinSpeedPotionCrash.description>
+  
+  <!-- EN: muscle fatigue -->
+  <RatkinStrengthPotionWeakness.label>TODO</RatkinStrengthPotionWeakness.label>
+  <!-- EN: Overexerted muscles struggle to perform even basic tasks. The price of temporary power. -->
+  <RatkinStrengthPotionWeakness.description>TODO</RatkinStrengthPotionWeakness.description>
+  
+</LanguageData>

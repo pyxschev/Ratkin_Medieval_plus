@@ -4,51 +4,85 @@ using Verse;
 
 namespace RkM
 {
-    public class HediffCompProperties_Invisibility : HediffCompProperties
+    public class HediffCompProperties_RatkinInvisibility : HediffCompProperties_Invisibility
     {
-        public float detectionReduction = 0.9f;    // 被发现几率降低 (0.9 = 90% harder to detect)
-        public bool breakOnDamage = true;          //受伤是否移除隐身hediff
-        public float alphaWhenInvisible = 0.2f;    
+        public float detectionReduction = 0.9f;    //被发现几率降低
+        public bool breakOnDamage = true;          
+        public float customAlpha = 0.2f;         
 
-        public HediffCompProperties_Invisibility()
+        public HediffCompProperties_RatkinInvisibility()
         {
-            compClass = typeof(HediffComp_Invisibility);
+            compClass = typeof(HediffComp_RatkinInvisibility);
         }
     }
 
-    public class HediffComp_Invisibility : HediffComp
+    public class HediffComp_RatkinInvisibility : HediffComp_Invisibility
     {
-        public HediffCompProperties_Invisibility Props => (HediffCompProperties_Invisibility)props;
-
-        public bool IsInvisible => true; 
-
-        public float GetAlpha()
+        public new HediffCompProperties_RatkinInvisibility Props => (HediffCompProperties_RatkinInvisibility)props;
+        public new float GetAlpha()
         {
-            return Props.alphaWhenInvisible;
+            if (Props.visibleToPlayer)
+            {
+                return 1f;
+            }
+            
+            if (ShouldBeForcedVisible())
+            {
+                return 1f;
+            }
+            
+            return Props.customAlpha;
         }
 
-        public override void CompPostPostAdd(DamageInfo? dinfo)
+        private bool ShouldBeForcedVisible()
         {
-            base.CompPostPostAdd(dinfo);
-            BecomeInvisible();
-            UpdateTargetCache();
+            
+            if (base.Pawn.Downed)
+            {
+                return true;
+            }
+            
+            if (base.Pawn.IsBurning())
+            {
+                return true;
+            }
+            
+            if (base.Pawn.ParentHolder is Pawn_CarryTracker)
+            {
+                return true;
+            }
+            
+            if (Props.affectedByDisruptor && base.Pawn.health.hediffSet.HasHediff(HediffDefOf.DisruptorFlash))
+            {
+                return true;
+            }
+            
+            if (base.Pawn.health.hediffSet.HasHediff(HediffDefOf.CoveredInFirefoam))
+            {
+                return true;
+            }
+            
+            return false;
         }
 
-        public override void CompPostPostRemoved()
+        public override void Notify_PawnPostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
         {
-            base.CompPostPostRemoved();
-            BecomeVisible();
-            UpdateTargetCache();
+            base.Notify_PawnPostApplyDamage(dinfo, totalDamageDealt);
+            
+            if (Props.breakOnDamage && totalDamageDealt > 0)
+            {
+                base.Pawn.health.RemoveHediff(parent);
+            }
         }
 
         public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);
-          
-            CheckBreakInvisibility();
+            
+            CheckCustomBreakConditions();
         }
 
-        private void CheckBreakInvisibility()
+        private void CheckCustomBreakConditions()
         {
             bool shouldBreak = false;
             
@@ -67,72 +101,9 @@ namespace RkM
                 shouldBreak = true;
             }
             
-            if (base.Pawn.stances?.stunner?.Stunned == true)
-            {
-                shouldBreak = true;
-            }
-            
             if (shouldBreak)
             {
-                RemoveHediff();
-            }
-        }
-
-        private void RemoveHediff()
-        {
-            if (base.Pawn?.health?.hediffSet != null)
-            {
-                // 创建打破效果
-                //if (base.Pawn.Spawned)
-                //{
-                //    MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_ExplosionFlash, 0.8f);
-                //}
-                
-                // 移除隐身hediff
                 base.Pawn.health.RemoveHediff(parent);
-            }
-        }
-
-        public void BecomeVisible()
-        {
-            if (base.Pawn.Spawned)
-            {
-                // 创建可见效果
-                //MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_ExplosionFlash, 0.5f);
-                base.Pawn.Drawer.renderer.SetAllGraphicsDirty();
-            }
-        }
-
-        public void BecomeInvisible()
-        {
-            if (base.Pawn.Spawned)
-            {
-                // 创建隐身效果
-                //MoteMaker.MakeStaticMote(base.Pawn.Position, base.Pawn.Map, ThingDefOf.Mote_PsycastSkipFlashEntry, 0.3f);
-                base.Pawn.Drawer.renderer.SetAllGraphicsDirty();
-            }
-        }
-
-        private void UpdateTargetCache()
-        {
-            if (base.Pawn.Spawned)
-            {
-                base.Pawn.Map.attackTargetsCache.UpdateTarget(base.Pawn);
-                
-                if (base.Pawn.RaceProps.Humanlike)
-                {
-                    PortraitsCache.SetDirty(base.Pawn);
-                }
-            }
-        }
-
-        public override void Notify_PawnPostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
-        {
-            base.Notify_PawnPostApplyDamage(dinfo, totalDamageDealt);
-            
-            if (Props.breakOnDamage && totalDamageDealt > 0)
-            {
-                RemoveHediff();
             }
         }
     }

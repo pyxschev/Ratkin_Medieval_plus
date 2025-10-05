@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: berserker rage -->
+  <RatkinBerserkEffect.label>狂暴愤怒</RatkinBerserkEffect.label>
+  <!-- EN: WAAAGH!! Uncontrollable RAGE!. -->
+  <RatkinBerserkEffect.description>WAAAGH！！不可控制的愤怒！</RatkinBerserkEffect.description>
+  
+  <!-- EN: empty mind -->
+  <RatkinBrainwashEffect.label>空洞心智</RatkinBrainwashEffect.label>
+  <!-- EN: A hollow feeling of mental emptiness. The mind struggles to function normally after being wiped clean. -->
+  <RatkinBrainwashEffect.description>一种空洞的精神空虚感。在被彻底清洗后，大脑难以正常运作。</RatkinBrainwashEffect.description>
+  
+  <!-- EN: blessed feeling -->
+  <RatkinHolyWaterEffect.label>受祝福的感觉</RatkinHolyWaterEffect.label>
+  <!-- EN: I feel blessed. A sense of peace and divine protection washes over the soul. -->
+  <RatkinHolyWaterEffect.description>感觉受到祝福了。一种平静和神圣保护的感觉冲刷着灵魂。</RatkinHolyWaterEffect.description>
+  
+  <!-- EN: inspired state -->
+  <RatkinInspirationEffect.label>灵感状态</RatkinInspirationEffect.label>
+  <!-- EN: I understand it! Brilliant insights flow through my mind crystal clear. -->
+  <RatkinInspirationEffect.description>我懂了！绝妙的洞察力清晰地流淌在我的脑海中。</RatkinInspirationEffect.description>
+  
+  <!-- EN: enhanced intellect -->
+  <RatkinIntelligenceEffect.label>智力增强</RatkinIntelligenceEffect.label>
+  <!-- EN: Mind clarity beyond comprehension. Thoughts become sharp and precise, but at what cost? -->
+  <RatkinIntelligenceEffect.description>超乎理解的心智清晰。思维变得敏锐而精确，但代价是什么？</RatkinIntelligenceEffect.description>
+  
+  <!-- EN: invisibility -->
+  <RatkinInvisibilityEffect.label>隐身</RatkinInvisibilityEffect.label>
+  <!-- EN: I'm invisible! The body blends seamlessly with the surroundings. -->
+  <RatkinInvisibilityEffect.description>我隐身了！身体与周围环境完美融合。</RatkinInvisibilityEffect.description>
+  
+  <!-- EN: passionate desire -->
+  <RatkinLovePotionEffect.label>激情欲望</RatkinLovePotionEffect.label>
+  <!-- EN: Body feels so hot... Overwhelming romantic and physical desires flood the mind. -->
+  <RatkinLovePotionEffect.description>身体好热...压倒性的浪漫和肉体欲望涌入脑海。</RatkinLovePotionEffect.description>
+  
+  <!-- EN: major healing effect -->
+  <RatkinMajorHealingPotionHigh.label>TODO</RatkinMajorHealingPotionHigh.label>
+  <!-- EN: Miraculous! My wounds are almost healed! Incredible healing power with serious risks. -->
+  <RatkinMajorHealingPotionHigh.description>TODO</RatkinMajorHealingPotionHigh.description>
+  
+  <!-- EN: medium healing effect -->
+  <RatkinMediumHealingPotionHigh.label>TODO</RatkinMediumHealingPotionHigh.label>
+  <!-- EN: So many wounds don't hurt anymore! Powerful healing for multiple injuries. -->
+  <RatkinMediumHealingPotionHigh.description>TODO</RatkinMediumHealingPotionHigh.description>
+  
+  <!-- EN: minor healing effect -->
+  <RatkinMinorHealingPotionHigh.label>TODO</RatkinMinorHealingPotionHigh.label>
+  <!-- EN: The burning pain of wounds has lessened! Quick relief from minor injuries. -->
+  <RatkinMinorHealingPotionHigh.description>TODO</RatkinMinorHealingPotionHigh.description>
+  
+  <!-- EN: panacea effect -->
+  <RatkinPanaceaHigh.label>万灵药效果</RatkinPanaceaHigh.label>
+  <!-- EN: All ailments have been completely purified! Divine healing power flows through the body. -->
+  <RatkinPanaceaHigh.description>病痛被彻底净化了！神圣的治愈力量流淌在身体中。</RatkinPanaceaHigh.description>
+  
+  <!-- EN: rat poison poisoning -->
+  <RatkinPoisonEffect.label>老鼠药中毒</RatkinPoisonEffect.label>
+  <!-- EN: Rat poison...? Rat poison! Severe poisoning from the toxic substance. -->
+  <RatkinPoisonEffect.description>老鼠药...?老鼠药！毒性物质引起的严重中毒。</RatkinPoisonEffect.description>
+  
+  <!-- EN: recovery potion effect -->
+  <RatkinRecoveryPotionHigh.label>康复药水效果</RatkinRecoveryPotionHigh.label>
+  <!-- EN: Body pain is leaving me. A soothing warmth spreads through the body, accelerating natural healing. -->
+  <RatkinRecoveryPotionHigh.description>身体的痛苦正在远离我。舒缓的温暖流遍全身，加速自然愈合。</RatkinRecoveryPotionHigh.description>
+  
+  <!-- EN: speed potion effect -->
+  <RatkinSpeedPotionHigh.label>速度药水效果</RatkinSpeedPotionHigh.label>
+  <!-- EN: The wind beneath my feet urges me on! Enhanced movement speed but at a cost. -->
+  <RatkinSpeedPotionHigh.description>脚下的风在催促我！移动速度提升，但有代价。</RatkinSpeedPotionHigh.description>
+  
+  <!-- EN: enhanced strength -->
+  <RatkinStrengthEffect.label>力量增强</RatkinStrengthEffect.label>
+  <!-- EN: Muscles surge with incredible power. Melee combat effectiveness is greatly enhanced. -->
+  <RatkinStrengthEffect.description>肌肉涌现出惊人的力量。近战作战效率大大提升。</RatkinStrengthEffect.description>
+  
+  <!-- EN: violent nausea -->
+  <RatkinAntidoteEffect.label>剧烈恶心</RatkinAntidoteEffect.label>
+  <!-- EN: The antidote is causing intense nausea and vomiting as the body purges toxins. This unpleasant but necessary process will cleanse the system. -->
+  <RatkinAntidoteEffect.description>解毒药正在引起强烈的恶心和呕吐，身体正在清除毒素。这个不适但必要的过程将彻底净化体内毒素。</RatkinAntidoteEffect.description>
+  
+</LanguageData>

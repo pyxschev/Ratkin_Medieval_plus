@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: purging sickness -->
+  <RatkinAntidoteNauseaThought.stages.purging_sickness.label>TODO</RatkinAntidoteNauseaThought.stages.purging_sickness.label>
+  <!-- EN: The toxin purging process makes me feel sick and weak. -->
+  <RatkinAntidoteNauseaThought.stages.purging_sickness.description>TODO</RatkinAntidoteNauseaThought.stages.purging_sickness.description>
+  
+  <!-- EN: feeling better after vomiting -->
+  <RatkinAntidoteThought.stages.feeling_better_after_vomiting.label>TODO</RatkinAntidoteThought.stages.feeling_better_after_vomiting.label>
+  <!-- EN: After vomiting... I feel better. The toxins are gone. -->
+  <RatkinAntidoteThought.stages.feeling_better_after_vomiting.description>TODO</RatkinAntidoteThought.stages.feeling_better_after_vomiting.description>
+  
+  <!-- EN: completely exhausted -->
+  <RatkinBerserkExhaustionThought.stages.completely_exhausted.label>TODO</RatkinBerserkExhaustionThought.stages.completely_exhausted.label>
+  <!-- EN: I'm completely exhausted after the berserker rage. Can barely stay conscious. -->
+  <RatkinBerserkExhaustionThought.stages.completely_exhausted.description>TODO</RatkinBerserkExhaustionThought.stages.completely_exhausted.description>
+  
+  <!-- EN: WAAAGH!! -->
+  <RatkinBerserkThought.stages.WAAAGH.label>TODO</RatkinBerserkThought.stages.WAAAGH.label>
+  <!-- EN: WAAAGH!! Incredible power flows through my veins! -->
+  <RatkinBerserkThought.stages.WAAAGH.description>TODO</RatkinBerserkThought.stages.WAAAGH.description>
+  
+  <!-- EN: empty mind -->
+  <RatkinBrainwashThought.stages.empty_mind.label>TODO</RatkinBrainwashThought.stages.empty_mind.label>
+  <!-- EN: My mind feels hollow and empty. I can barely think. -->
+  <RatkinBrainwashThought.stages.empty_mind.description>TODO</RatkinBrainwashThought.stages.empty_mind.description>
+  
+  <!-- EN: eccentric behavior -->
+  <RatkinEccentricMindThought.stages.eccentric_behavior.label>TODO</RatkinEccentricMindThought.stages.eccentric_behavior.label>
+  <!-- EN: My mind works differently now. Others find my behavior strange. -->
+  <RatkinEccentricMindThought.stages.eccentric_behavior.description>TODO</RatkinEccentricMindThought.stages.eccentric_behavior.description>
+  
+  <!-- EN: feeling blessed -->
+  <RatkinHolyWaterThought.stages.feeling_blessed.label>TODO</RatkinHolyWaterThought.stages.feeling_blessed.label>
+  <!-- EN: I feel blessed. Peace flows through my soul. -->
+  <RatkinHolyWaterThought.stages.feeling_blessed.description>TODO</RatkinHolyWaterThought.stages.feeling_blessed.description>
+  
+  <!-- EN: I understand! -->
+  <RatkinInspirationThought.stages.I_understand.label>TODO</RatkinInspirationThought.stages.I_understand.label>
+  <!-- EN: I understand! Brilliant insights flow through my mind. -->
+  <RatkinInspirationThought.stages.I_understand.description>TODO</RatkinInspirationThought.stages.I_understand.description>
+  
+  <!-- EN: I'm invisible! -->
+  <RatkinInvisibilityThought.stages.Im_invisible.label>TODO</RatkinInvisibilityThought.stages.Im_invisible.label>
+  <!-- EN: I'm invisible! I can move unseen through the world. -->
+  <RatkinInvisibilityThought.stages.Im_invisible.description>TODO</RatkinInvisibilityThought.stages.Im_invisible.description>
+  
+  <!-- EN: was that really me? -->
+  <RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.label>TODO</RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.label>
+  <!-- EN: Was that really me? I'm so embarrassed by my behavior. -->
+  <RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.description>TODO</RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.description>
+  
+  <!-- EN: body feels hot -->
+  <RatkinLovePotionThought.stages.body_feels_hot.label>TODO</RatkinLovePotionThought.stages.body_feels_hot.label>
+  <!-- EN: Body feels so hot... overwhelming desires flood my mind. -->
+  <RatkinLovePotionThought.stages.body_feels_hot.description>TODO</RatkinLovePotionThought.stages.body_feels_hot.description>
+  
+  <!-- EN: miraculous healing -->
+  <RatkinMajorHealingPotionThought.stages.miraculous_healing.label>TODO</RatkinMajorHealingPotionThought.stages.miraculous_healing.label>
+  <!-- EN: Miraculous! My wounds are almost healed! -->
+  <RatkinMajorHealingPotionThought.stages.miraculous_healing.description>TODO</RatkinMajorHealingPotionThought.stages.miraculous_healing.description>
+  
+  <!-- EN: many wounds don't hurt -->
+  <RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.label>TODO</RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.label>
+  <!-- EN: So many wounds don't hurt anymore! -->
+  <RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.description>TODO</RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.description>
+  
+  <!-- EN: memories erased -->
+  <RatkinMemoryLossThought.stages.memories_erased.label>TODO</RatkinMemoryLossThought.stages.memories_erased.label>
+  <!-- EN: All my memories of relationships and culture have been wiped away. I feel lost. -->
+  <RatkinMemoryLossThought.stages.memories_erased.description>TODO</RatkinMemoryLossThought.stages.memories_erased.description>
+  
+  <!-- EN: wound pain lessened -->
+  <RatkinMinorHealingPotionThought.stages.wound_pain_lessened.label>TODO</RatkinMinorHealingPotionThought.stages.wound_pain_lessened.label>
+  <!-- EN: The burning pain of wounds has lessened! -->
+  <RatkinMinorHealingPotionThought.stages.wound_pain_lessened.description>TODO</RatkinMinorHealingPotionThought.stages.wound_pain_lessened.description>
+  
+  <!-- EN: ailments purified -->
+  <RatkinPanaceaThought.stages.ailments_purified.label>TODO</RatkinPanaceaThought.stages.ailments_purified.label>
+  <!-- EN: All ailments have been completely purified! -->
+  <RatkinPanaceaThought.stages.ailments_purified.description>TODO</RatkinPanaceaThought.stages.ailments_purified.description>
+  
+  <!-- EN: divine rejection -->
+  <RatkinPanaceaToleranceThought.stages.divine_rejection.label>TODO</RatkinPanaceaToleranceThought.stages.divine_rejection.label>
+  <!-- EN: My body rejects divine healing. I feel spiritually drained. -->
+  <RatkinPanaceaToleranceThought.stages.divine_rejection.description>TODO</RatkinPanaceaToleranceThought.stages.divine_rejection.description>
+  
+  <!-- EN: mind damaged -->
+  <RatkinPermanentDementiaThought.stages.mind_damaged.label>TODO</RatkinPermanentDementiaThought.stages.mind_damaged.label>
+  <!-- EN: My mind has been permanently damaged. Thoughts are slow and confused. -->
+  <RatkinPermanentDementiaThought.stages.mind_damaged.description>TODO</RatkinPermanentDementiaThought.stages.mind_damaged.description>
+  
+  <!-- EN: rat poison! -->
+  <RatkinPoisonThought.stages.rat_poison.label>TODO</RatkinPoisonThought.stages.rat_poison.label>
+  <!-- EN: Rat poison...? Rat poison! I feel terrible! -->
+  <RatkinPoisonThought.stages.rat_poison.description>TODO</RatkinPoisonThought.stages.rat_poison.description>
+  
+  <!-- EN: accelerated metabolism -->
+  <RatkinRecoveryHungerThought.stages.accelerated_metabolism.label>TODO</RatkinRecoveryHungerThought.stages.accelerated_metabolism.label>
+  <!-- EN: My body is healing fast, but I'm getting hungry much quicker. -->
+  <RatkinRecoveryHungerThought.stages.accelerated_metabolism.description>TODO</RatkinRecoveryHungerThought.stages.accelerated_metabolism.description>
+  
+  <!-- EN: body pain is leaving me -->
+  <RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.label>TODO</RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.label>
+  <!-- EN: The soothing warmth spreads through my body, healing feels faster. -->
+  <RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.description>TODO</RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.description>
+  
+  <!-- EN: feel drained -->
+  <RatkinSpeedCrashThought.stages.feel_drained.label>TODO</RatkinSpeedCrashThought.stages.feel_drained.label>
+  <!-- EN: I feel drained... my body has been emptied. -->
+  <RatkinSpeedCrashThought.stages.feel_drained.description>TODO</RatkinSpeedCrashThought.stages.feel_drained.description>
+  
+  <!-- EN: wind beneath my feet -->
+  <RatkinSpeedPotionThought.stages.wind_beneath_my_feet.label>TODO</RatkinSpeedPotionThought.stages.wind_beneath_my_feet.label>
+  <!-- EN: The wind beneath my feet urges me on! -->
+  <RatkinSpeedPotionThought.stages.wind_beneath_my_feet.description>TODO</RatkinSpeedPotionThought.stages.wind_beneath_my_feet.description>
+  
+  <!-- EN: muscle fatigue -->
+  <RatkinStrengthWeaknessThought.stages.muscle_fatigue.label>TODO</RatkinStrengthWeaknessThought.stages.muscle_fatigue.label>
+  <!-- EN: My muscles ache and feel weak after the temporary strength. -->
+  <RatkinStrengthWeaknessThought.stages.muscle_fatigue.description>TODO</RatkinStrengthWeaknessThought.stages.muscle_fatigue.description>
+  
+</LanguageData>

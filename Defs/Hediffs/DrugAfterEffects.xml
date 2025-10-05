@@ -337,27 +337,71 @@
     </stages>
   </HediffDef>
 
-  <!-- 解毒药恶心 -->
+  <!-- 解毒药恢复 -->
   <HediffDef>
-    <defName>RatkinAntidoteNausea</defName>
-    <label>purging sickness</label>
-    <description>The violent process of toxin purging leaves the body weak and nauseous, but ultimately healthier.</description>
+    <defName>RatkinAntidoteRecovery</defName>
+    <label>toxin-free recovery</label>
+    <description>The violent purging is complete and all toxins have been expelled. The body feels remarkably clean and refreshed, with enhanced blood filtration capabilities.</description>
     <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.8, 0.6)</defaultLabelColor>
+    <defaultLabelColor>(0.6, 1.0, 0.6)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
-    <isBad>true</isBad>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-4.0</severityPerDay>
+        <severityPerDay>-2.0</severityPerDay>
       </li>
     </comps>
     <stages>
       <li>
-        <minSeverity>0</minSeverity>
-        <vomitMtbDays>0.25</vomitMtbDays>
+        <minSeverity>0.7</minSeverity>
+        <!-- Early recovery - still a bit weak -->
+        <label>early recovery</label>
         <statOffsets>
-          <WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
+          <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.3</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <!-- Good recovery - feeling much better -->
+        <label>good recovery</label>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.5</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0</minSeverity>
+        <!-- Full recovery - feeling fantastic -->
+        <label>excellent recovery</label>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.6</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <MoveSpeed>0.1</MoveSpeed>
         </statOffsets>
       </li>
     </stages>
