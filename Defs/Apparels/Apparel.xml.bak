@@ -26,7 +26,7 @@
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/diguokaijia/diguokaijia</texPath>
+      <texPath>Graybox/Things/Apparel/diguokaijia/diguokaijia</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -100,7 +100,7 @@
          <li>ApparelNoble</li>
       </thingCategories>
     <graphicData>
-      <texPath>Things/Apparel/diguomaozi/diguomaozi</texPath>
+      <texPath>Graybox/Things/Apparel/diguomaozi/diguomaozi</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -169,7 +169,7 @@
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/mianjia/mianjia</texPath>
+      <texPath>Graybox/Things/Apparel/mianjia/mianjia</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -238,7 +238,7 @@
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/suojia/suojia</texPath>
+      <texPath>Graybox/Things/Apparel/suojia/suojia</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
