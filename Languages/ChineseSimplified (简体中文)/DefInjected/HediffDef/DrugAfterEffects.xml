@@ -5,12 +5,12 @@
   <RatkinAntidoteRecovery.label>TODO</RatkinAntidoteRecovery.label>
   <!-- EN: The violent purging is complete and all toxins have been expelled. The body feels remarkably clean and refreshed, with enhanced blood filtration capabilities. -->
   <RatkinAntidoteRecovery.description>TODO</RatkinAntidoteRecovery.description>
-  <!-- EN: early recovery -->
-  <RatkinAntidoteRecovery.stages.early_recovery.label>TODO</RatkinAntidoteRecovery.stages.early_recovery.label>
-  <!-- EN: good recovery -->
-  <RatkinAntidoteRecovery.stages.good_recovery.label>TODO</RatkinAntidoteRecovery.stages.good_recovery.label>
   <!-- EN: excellent recovery -->
   <RatkinAntidoteRecovery.stages.excellent_recovery.label>TODO</RatkinAntidoteRecovery.stages.excellent_recovery.label>
+  <!-- EN: good recovery -->
+  <RatkinAntidoteRecovery.stages.good_recovery.label>TODO</RatkinAntidoteRecovery.stages.good_recovery.label>
+  <!-- EN: early recovery -->
+  <RatkinAntidoteRecovery.stages.early_recovery.label>TODO</RatkinAntidoteRecovery.stages.early_recovery.label>
   
   <!-- EN: berserker exhaustion -->
   <RatkinBerserkExhaustion.label>TODO</RatkinBerserkExhaustion.label>

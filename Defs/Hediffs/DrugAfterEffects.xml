@@ -354,19 +354,25 @@
     </comps>
     <stages>
       <li>
-        <minSeverity>0.7</minSeverity>
-        <!-- Early recovery - still a bit weak -->
-        <label>early recovery</label>
-        <statOffsets>
-          <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
-        </statOffsets>
+        <minSeverity>0</minSeverity>
+        <!-- Full recovery - feeling fantastic -->
+        <label>excellent recovery</label>
         <capMods>
           <li>
             <capacity>BloodFiltration</capacity>
-            <offset>0.3</offset>
+            <offset>0.6</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.15</offset>
           </li>
         </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
       </li>
+      
       <li>
         <minSeverity>0.4</minSeverity>
         <!-- Good recovery - feeling much better -->
@@ -386,22 +392,42 @@
         </statOffsets>
       </li>
       <li>
-        <minSeverity>0</minSeverity>
-        <!-- Full recovery - feeling fantastic -->
-        <label>excellent recovery</label>
+        <minSeverity>0.7</minSeverity>
+        <!-- Early recovery - still a bit weak -->
+        <label>early recovery</label>
+        <statOffsets>
+          <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+        </statOffsets>
         <capMods>
           <li>
             <capacity>BloodFiltration</capacity>
-            <offset>0.6</offset>
-          </li>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>0.15</offset>
+            <offset>0.3</offset>
           </li>
         </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 抗火药水后遗症 - 热质残留 -->
+  <HediffDef>
+    <defName>RatkinFireResistAfterEffect</defName>
+    <label>heat residue</label>
+    <description>My skin is burning! I feel like I'm about to combust! The accumulated heat in the body is violently dissipating, greatly increasing flammability.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.2, 0.2)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-6.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
         <statOffsets>
-          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-          <MoveSpeed>0.1</MoveSpeed>
+          <Flammability>0.5</Flammability>
         </statOffsets>
       </li>
     </stages>

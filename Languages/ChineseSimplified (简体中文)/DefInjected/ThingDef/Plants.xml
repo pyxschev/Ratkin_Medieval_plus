@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ratkin aconite -->
+  <RatkinPlant_Aconite.label>TODO</RatkinPlant_Aconite.label>
+  <!-- EN: A dangerous plant with deep purple helmet-shaped flowers and thick black roots. The entire plant contains deadly aconitine toxins. In medieval times, it was often used to coat arrows for hunting and warfare. Skilled alchemists can transform it into potent reagents, but handling requires extreme caution. -->
+  <RatkinPlant_Aconite.description>TODO</RatkinPlant_Aconite.description>
+  
+  <!-- EN: ratkin lavender -->
+  <RatkinPlant_Lavender.label>TODO</RatkinPlant_Lavender.label>
+  <!-- EN: An aromatic plant with purple spike-shaped flowers. The dried flower spikes can be made into sachets, perfumes, or used to brew emotion-soothing potions. When placed in rooms, it enhances environmental beauty with its pleasant fragrance. -->
+  <RatkinPlant_Lavender.description>TODO</RatkinPlant_Lavender.description>
+  
+  <!-- EN: ratkin licorice -->
+  <RatkinPlant_Licorice.label>TODO</RatkinPlant_Licorice.label>
+  <!-- EN: A hardy plant with sweet-tasting roots that can soothe respiratory discomfort. The roots are commonly used as a sweetening agent in various medicinal recipes and provide a pleasant, sweet flavor when consumed directly. -->
+  <RatkinPlant_Licorice.description>TODO</RatkinPlant_Licorice.description>
+  
+  <!-- EN: Sage -->
+  <RatkinPlant_Sage.label>TODO</RatkinPlant_Sage.label>
+  <!-- EN: A hardy herb with broad, aromatic leaves that emit a distinctive clean fragrance. Commonly used for air purification, cooking seasoning, and as a medicinal ingredient in recovery broths. When burned, it releases a soothing aroma. -->
+  <RatkinPlant_Sage.description>TODO</RatkinPlant_Sage.description>
+  
+  <!-- EN: ratkin valerian -->
+  <RatkinPlant_Valerian.label>TODO</RatkinPlant_Valerian.label>
+  <!-- EN: A robust herb with thick roots and delicate pale pink flowers. The root system has calming and sedative properties, making it valuable for creating soothing potions and sleep aids. The flowers emit a gentle, relaxing fragrance. -->
+  <RatkinPlant_Valerian.description>TODO</RatkinPlant_Valerian.description>
+  
+</LanguageData>

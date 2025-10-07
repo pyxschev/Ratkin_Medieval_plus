@@ -70,6 +70,7 @@
     <Compile Include="HediffComps\HediffComp_Invisibility.cs" />
     <Compile Include="HediffComps\HediffComp_MemoryWipe.cs" />
     <Compile Include="HediffComps\HediffComp_MentalStateGiver.cs" />
+    <Compile Include="HediffComps\HediffComp_RemoveSpecificHediffs.cs" />
     <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_CureAll.cs" />
     <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_GiveRandomInspiration.cs" />
     <Compile Include="IngestionOutcomeDoers\IngestionOutcomeDoer_RemoveSpecificHediffs.cs" />

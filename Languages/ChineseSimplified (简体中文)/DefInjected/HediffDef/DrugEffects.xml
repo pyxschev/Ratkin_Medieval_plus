@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: violent nausea -->
+  <RatkinAntidoteEffect.label>TODO</RatkinAntidoteEffect.label>
+  <!-- EN: The antidote is causing intense nausea and vomiting as the body purges toxins. This unpleasant but necessary process will cleanse the system. -->
+  <RatkinAntidoteEffect.description>TODO</RatkinAntidoteEffect.description>
+  
   <!-- EN: berserker rage -->
   <RatkinBerserkEffect.label>狂暴愤怒</RatkinBerserkEffect.label>
   <!-- EN: WAAAGH!! Uncontrollable RAGE!. -->
@@ -75,10 +80,5 @@
   <RatkinStrengthEffect.label>力量增强</RatkinStrengthEffect.label>
   <!-- EN: Muscles surge with incredible power. Melee combat effectiveness is greatly enhanced. -->
   <RatkinStrengthEffect.description>肌肉涌现出惊人的力量。近战作战效率大大提升。</RatkinStrengthEffect.description>
-  
-  <!-- EN: violent nausea -->
-  <RatkinAntidoteEffect.label>剧烈恶心</RatkinAntidoteEffect.label>
-  <!-- EN: The antidote is causing intense nausea and vomiting as the body purges toxins. This unpleasant but necessary process will cleanse the system. -->
-  <RatkinAntidoteEffect.description>解毒药正在引起强烈的恶心和呕吐，身体正在清除毒素。这个不适但必要的过程将彻底净化体内毒素。</RatkinAntidoteEffect.description>
   
 </LanguageData>

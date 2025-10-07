@@ -1,4 +1,5 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using RimWorld;
 using Verse;
 
@@ -20,13 +21,13 @@ namespace RkM
     public class HediffComp_RemoveSpecificHediffs : HediffComp
     {
         public HediffCompProperties_RemoveSpecificHediffs Props => (HediffCompProperties_RemoveSpecificHediffs)props;
-        
+
         private bool hasRemovedOnAdd = false;
 
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {
             base.CompPostPostAdd(dinfo);
-            
+
             if (Props.removeOnAdd && !hasRemovedOnAdd)
             {
                 RemoveTargetHediffs();
@@ -52,7 +53,7 @@ namespace RkM
                                 toRemove.Add(hediff);
                             }
                         }
-                        
+
                         foreach (var hediff in toRemove)
                         {
                             base.Pawn.health.RemoveHediff(hediff);

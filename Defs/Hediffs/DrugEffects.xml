@@ -52,8 +52,7 @@
         <woundsToHeal>3</woundsToHeal>
         <healInfections>false</healInfections>
         <healOldWounds>false</healOldWounds>
-        <healingQuality>1.0</healingQuality>
-        <bandageWounds>true</bandageWounds>
+        <healingQuality>0.8</healingQuality>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinRegenerationDisorder</hediffDef>
@@ -92,7 +91,6 @@
         <healInfections>false</healInfections>
         <healOldWounds>false</healOldWounds>
         <healingQuality>1.0</healingQuality>
-        <bandageWounds>true</bandageWounds>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinRegenerationDisorder</hediffDef>
@@ -133,7 +131,6 @@
         <healInfections>false</healInfections>
         <healOldWounds>false</healOldWounds>
         <healingQuality>1.0</healingQuality>
-        <bandageWounds>true</bandageWounds>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinRegenerationDisorder</hediffDef>
@@ -363,13 +360,9 @@
       <li Class="RkM.HediffCompProperties_GivePermanentTrait">
         <traitDef>Nudist</traitDef>
         <traitDegree>0</traitDegree>
-        <chance>0.001</chance>
+        <chance>0.1</chance>
       </li>
-      <li Class="RkM.HediffCompProperties_giveAfterEffect">
-        <hediffDef>RatkinEccentricMind</hediffDef>
-        <severity>0.001</severity>
-        <chance>0.001</chance>
-      </li>
+
     </comps>
     <stages>
       <li>
@@ -426,7 +419,7 @@
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>Dementia</hediffDef>
         <severity>1.0</severity>
-        <chance>0.0001</chance>
+        <chance>0.1</chance>
       </li>
     </comps>
     <stages>
@@ -621,6 +614,36 @@
             <postFactor>0.1</postFactor>
           </li>
         </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- 抗火药水 -->
+  <HediffDef>
+    <defName>RatkinFireResistEffect</defName>
+    <label>molten shell</label>
+    <description>Feels like wearing a cooled lava shell... Fire resistance greatly increased but at the cost of comfort.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.6, 0.2)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>15000~15000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="RkM.HediffCompProperties_giveAfterEffect">
+        <hediffDef>RatkinFireResistAfterEffect</hediffDef>
+        <severity>1.0</severity>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <statOffsets>
+          <Flammability>-1.0</Flammability>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
