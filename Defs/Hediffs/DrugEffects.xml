@@ -12,8 +12,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinRecoveryPotionHunger</hediffDef>
@@ -43,14 +44,16 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-24.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500~2500</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_InstantHeal">
-        <woundsToHeal>1</woundsToHeal>
+        <woundsToHeal>3</woundsToHeal>
         <healInfections>false</healInfections>
         <healOldWounds>false</healOldWounds>
         <healingQuality>1.0</healingQuality>
+        <bandageWounds>true</bandageWounds>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinRegenerationDisorder</hediffDef>
@@ -62,6 +65,8 @@
         <minSeverity>0</minSeverity>
         <statOffsets>
           <PainShockThreshold>0.2</PainShockThreshold>
+          <InjuryHealingFactor>1.5</InjuryHealingFactor>
+          <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
         </statOffsets>
       </li>
     </stages>
@@ -78,14 +83,16 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-24.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500~2500</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_InstantHeal">
-        <woundsToHeal>5</woundsToHeal>
+        <woundsToHeal>10</woundsToHeal>
         <healInfections>false</healInfections>
         <healOldWounds>false</healOldWounds>
         <healingQuality>1.0</healingQuality>
+        <bandageWounds>true</bandageWounds>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinRegenerationDisorder</hediffDef>
@@ -97,6 +104,8 @@
         <minSeverity>0</minSeverity>
         <statOffsets>
           <PainShockThreshold>0.4</PainShockThreshold>
+          <InjuryHealingFactor>2.5</InjuryHealingFactor>
+          <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
         </statOffsets>
       </li>
     </stages>
@@ -112,15 +121,19 @@
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
+    <preventsDeath>true</preventsDeath>
+    <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-24.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500~2500</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_InstantHeal">
-        <woundsToHeal>10</woundsToHeal>
+        <woundsToHeal>999</woundsToHeal>
         <healInfections>false</healInfections>
         <healOldWounds>false</healOldWounds>
         <healingQuality>1.0</healingQuality>
+        <bandageWounds>true</bandageWounds>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinRegenerationDisorder</hediffDef>
@@ -130,8 +143,12 @@
     <stages>
       <li>
         <minSeverity>0</minSeverity>
+        <regeneration>30000</regeneration>
+        <showRegenerationStat>true</showRegenerationStat>
         <statOffsets>
           <PainShockThreshold>0.6</PainShockThreshold>
+          <InjuryHealingFactor>4.0</InjuryHealingFactor>
+          <ImmunityGainSpeed>2.2</ImmunityGainSpeed>
         </statOffsets>
       </li>
     </stages>
@@ -148,8 +165,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-12.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>5000~5000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinSpeedPotionCrash</hediffDef>
@@ -177,8 +195,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.5</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>120000~120000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinPanaceaTolerance</hediffDef>
@@ -252,8 +271,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>true</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
     </comps>
     <stages>
@@ -285,8 +305,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>true</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-12.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>5000~5000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_RemoveSpecificHediffs">
         <hediffsToRemove>
@@ -305,7 +326,6 @@
     <stages>
       <li>
         <minSeverity>0</minSeverity>
-        <!-- Intense vomiting phase - short but violent -->
         <vomitMtbDays>0.01</vomitMtbDays>
         <capMods>
           <li>  
@@ -321,12 +341,6 @@
           <WorkSpeedGlobal>-0.9</WorkSpeedGlobal>
           <MoveSpeed>-0.7</MoveSpeed>
         </statOffsets>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Nausea</hediff>
-            <mtbDays>0.1</mtbDays>
-          </li>
-        </hediffGivers>
       </li>
     </stages>
   </HediffDef>
@@ -342,8 +356,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.333</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000~180000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_GivePermanentTrait">
         <traitDef>Nudist</traitDef>
@@ -378,8 +393,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.333</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>180000~180000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
     </comps>
     <stages>
@@ -403,8 +419,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.5</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>120000~120000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>Dementia</hediffDef>
@@ -440,8 +457,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-12.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>5000~5000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinStrengthPotionWeakness</hediffDef>
@@ -470,16 +488,15 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-24.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500~2500</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_RatkinInvisibility">
-        <!-- Vanilla invisibility properties -->
         <fadeDurationTicks>180</fadeDurationTicks>
         <recoverFromDisruptedTicks>300</recoverFromDisruptedTicks>
         <visibleToPlayer>false</visibleToPlayer>
-        <affectedByDisruptor>true</affectedByDisruptor>
-        <!-- Custom properties -->
+        <affectedByDisruptor>false</affectedByDisruptor>
         <detectionReduction>0.9</detectionReduction>
         <breakOnDamage>true</breakOnDamage>
         <customAlpha>0.2</customAlpha>
@@ -507,8 +524,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_giveAfterEffect">
         <hediffDef>RatkinLovePotionEmbarrassment</hediffDef>
@@ -537,8 +555,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-24.0</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500~2500</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_MentalStateGiver">
         <mentalState>Berserk</mentalState>
@@ -582,8 +601,9 @@
     <maxSeverity>1.0</maxSeverity>
     <isBad>true</isBad>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.2</severityPerDay>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>300000~300000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
       </li>
       <li Class="RkM.HediffCompProperties_MemoryWipe">
         <clearSocialMemories>true</clearSocialMemories>
@@ -598,12 +618,9 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.3</offset>
+            <postFactor>0.1</postFactor>
           </li>
         </capMods>
-        <statOffsets>
-          <WorkSpeedGlobal>-0.5</WorkSpeedGlobal>
-        </statOffsets>
       </li>
     </stages>
   </HediffDef>

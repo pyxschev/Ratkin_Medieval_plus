@@ -311,7 +311,7 @@
   <ThoughtDef>
     <defName>RatkinAntidoteNauseaThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>RatkinAntidoteNausea</hediff>
+    <hediff>RatkinAntidoteEffect</hediff>
     <validWhileDespawned>false</validWhileDespawned>
     <stages>
       <li>
