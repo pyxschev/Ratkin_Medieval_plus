@@ -2,74 +2,74 @@
 <LanguageData>
   
   <!-- EN: toxin-free recovery -->
-  <RatkinAntidoteRecovery.label>TODO</RatkinAntidoteRecovery.label>
+  <RatkinAntidoteRecovery.label>吐完之后...感觉身体好起来了</RatkinAntidoteRecovery.label>
   <!-- EN: The violent purging is complete and all toxins have been expelled. The body feels remarkably clean and refreshed, with enhanced blood filtration capabilities. -->
-  <RatkinAntidoteRecovery.description>TODO</RatkinAntidoteRecovery.description>
+  <RatkinAntidoteRecovery.description>剧烈的排毒过程已经完成，所有毒素都被清除了。身体感觉异常清洁和清新，血液过滤能力得到增强。</RatkinAntidoteRecovery.description>
   <!-- EN: excellent recovery -->
-  <RatkinAntidoteRecovery.stages.excellent_recovery.label>TODO</RatkinAntidoteRecovery.stages.excellent_recovery.label>
+  <RatkinAntidoteRecovery.stages.excellent_recovery.label>完全康复</RatkinAntidoteRecovery.stages.excellent_recovery.label>
   <!-- EN: good recovery -->
-  <RatkinAntidoteRecovery.stages.good_recovery.label>TODO</RatkinAntidoteRecovery.stages.good_recovery.label>
+  <RatkinAntidoteRecovery.stages.good_recovery.label>良好康复</RatkinAntidoteRecovery.stages.good_recovery.label>
   <!-- EN: early recovery -->
-  <RatkinAntidoteRecovery.stages.early_recovery.label>TODO</RatkinAntidoteRecovery.stages.early_recovery.label>
+  <RatkinAntidoteRecovery.stages.early_recovery.label>初期康复</RatkinAntidoteRecovery.stages.early_recovery.label>
   
   <!-- EN: berserker exhaustion -->
-  <RatkinBerserkExhaustion.label>TODO</RatkinBerserkExhaustion.label>
+  <RatkinBerserkExhaustion.label>狂暴后疲惫</RatkinBerserkExhaustion.label>
   <!-- EN: Complete mental and physical exhaustion after the rage subsides. The mind struggles to stay conscious. -->
-  <RatkinBerserkExhaustion.description>TODO</RatkinBerserkExhaustion.description>
+  <RatkinBerserkExhaustion.description>狂怒消退后的完全精神和身体疲惫。心智难以保持清醒。</RatkinBerserkExhaustion.description>
   
   <!-- EN: eccentric behavior -->
-  <RatkinEccentricMind.label>TODO</RatkinEccentricMind.label>
+  <RatkinEccentricMind.label>怪诞不经</RatkinEccentricMind.label>
   <!-- EN: The mind has been permanently altered by excessive inspiration. Strange and unpredictable behavior patterns emerge. -->
-  <RatkinEccentricMind.description>TODO</RatkinEccentricMind.description>
+  <RatkinEccentricMind.description>心智被过度的灵感永久改变了。出现了奇怪且不可预测的行为模式。</RatkinEccentricMind.description>
   
   <!-- EN: embarrassment -->
-  <RatkinLovePotionEmbarrassment.label>TODO</RatkinLovePotionEmbarrassment.label>
+  <RatkinLovePotionEmbarrassment.label>这真的是我吗？</RatkinLovePotionEmbarrassment.label>
   <!-- EN: Was that really me? Deep shame and regret about recent passionate behavior. -->
-  <RatkinLovePotionEmbarrassment.description>TODO</RatkinLovePotionEmbarrassment.description>
+  <RatkinLovePotionEmbarrassment.description>那真的是我吗？对最近激情行为的深深羞耻和后悔。</RatkinLovePotionEmbarrassment.description>
   
   <!-- EN: memory erasure -->
-  <RatkinMemoryLoss.label>TODO</RatkinMemoryLoss.label>
+  <RatkinMemoryLoss.label>呃啊……我从哪来的？</RatkinMemoryLoss.label>
   <!-- EN: All memories of relationships and cultural identity have been wiped clean. The mind is a blank slate. -->
-  <RatkinMemoryLoss.description>TODO</RatkinMemoryLoss.description>
+  <RatkinMemoryLoss.description>所有关系和文化身份的记忆都被彻底清除了。心智是一片空白。</RatkinMemoryLoss.description>
   
   <!-- EN: panacea tolerance -->
-  <RatkinPanaceaTolerance.label>TODO</RatkinPanaceaTolerance.label>
+  <RatkinPanaceaTolerance.label>万灵药耐受</RatkinPanaceaTolerance.label>
   <!-- EN: The body cannot handle another miracle so soon. Divine healing is temporarily rejected. -->
-  <RatkinPanaceaTolerance.description>TODO</RatkinPanaceaTolerance.description>
+  <RatkinPanaceaTolerance.description>身体无法如此快地承受另一个奇迹。神圣治愈暂时被排斥。</RatkinPanaceaTolerance.description>
   
   <!-- EN: induced dementia -->
-  <RatkinPermanentDementia.label>TODO</RatkinPermanentDementia.label>
+  <RatkinPermanentDementia.label>痴呆</RatkinPermanentDementia.label>
   <!-- EN: The mind has been permanently damaged by overexertion. Thoughts are slow and confused. -->
-  <RatkinPermanentDementia.description>TODO</RatkinPermanentDementia.description>
+  <RatkinPermanentDementia.description>心智因过度透支而永久受损。思维缓慢且混乱。</RatkinPermanentDementia.description>
   
   <!-- EN: accelerated metabolism -->
-  <RatkinRecoveryPotionHunger.label>TODO</RatkinRecoveryPotionHunger.label>
+  <RatkinRecoveryPotionHunger.label>加速新陈代谢</RatkinRecoveryPotionHunger.label>
   <!-- EN: The body's healing processes demand more energy. Hunger increases significantly. -->
-  <RatkinRecoveryPotionHunger.description>TODO</RatkinRecoveryPotionHunger.description>
+  <RatkinRecoveryPotionHunger.description>身体的愈合过程需要更多能量。饥饿感显著增加。</RatkinRecoveryPotionHunger.description>
   
   <!-- EN: regeneration disorder -->
-  <RatkinRegenerationDisorder.label>TODO</RatkinRegenerationDisorder.label>
+  <RatkinRegenerationDisorder.label>再生紊乱</RatkinRegenerationDisorder.label>
   <!-- EN: The body's healing mechanisms have been disrupted by overuse of healing potions. Increased damage taken and reduced manipulation ability. Fatal at 100% severity. -->
-  <RatkinRegenerationDisorder.description>TODO</RatkinRegenerationDisorder.description>
+  <RatkinRegenerationDisorder.description>身体的愈合机制因过度使用治疗药水而被破坏。承受更多伤害，操作能力下降。严重度达到100%时致命。</RatkinRegenerationDisorder.description>
   <!-- EN: minor -->
-  <RatkinRegenerationDisorder.stages.minor.label>TODO</RatkinRegenerationDisorder.stages.minor.label>
+  <RatkinRegenerationDisorder.stages.minor.label>轻微</RatkinRegenerationDisorder.stages.minor.label>
   <!-- EN: moderate -->
-  <RatkinRegenerationDisorder.stages.moderate.label>TODO</RatkinRegenerationDisorder.stages.moderate.label>
+  <RatkinRegenerationDisorder.stages.moderate.label>中等</RatkinRegenerationDisorder.stages.moderate.label>
   <!-- EN: severe -->
-  <RatkinRegenerationDisorder.stages.severe.label>TODO</RatkinRegenerationDisorder.stages.severe.label>
+  <RatkinRegenerationDisorder.stages.severe.label>严重</RatkinRegenerationDisorder.stages.severe.label>
   <!-- EN: extreme -->
-  <RatkinRegenerationDisorder.stages.extreme.label>TODO</RatkinRegenerationDisorder.stages.extreme.label>
+  <RatkinRegenerationDisorder.stages.extreme.label>极度</RatkinRegenerationDisorder.stages.extreme.label>
   <!-- EN: fatal -->
-  <RatkinRegenerationDisorder.stages.fatal.label>TODO</RatkinRegenerationDisorder.stages.fatal.label>
+  <RatkinRegenerationDisorder.stages.fatal.label>致命</RatkinRegenerationDisorder.stages.fatal.label>
   
   <!-- EN: speed potion crash -->
-  <RatkinSpeedPotionCrash.label>TODO</RatkinSpeedPotionCrash.label>
+  <RatkinSpeedPotionCrash.label>我感觉身体被掏空...</RatkinSpeedPotionCrash.label>
   <!-- EN: I feel drained... The body pays the price for the temporary burst of speed. -->
-  <RatkinSpeedPotionCrash.description>TODO</RatkinSpeedPotionCrash.description>
+  <RatkinSpeedPotionCrash.description>我感觉被掏空了...身体为短暂的速度爆发付出了代价。</RatkinSpeedPotionCrash.description>
   
   <!-- EN: muscle fatigue -->
-  <RatkinStrengthPotionWeakness.label>TODO</RatkinStrengthPotionWeakness.label>
+  <RatkinStrengthPotionWeakness.label>肌肉疲劳</RatkinStrengthPotionWeakness.label>
   <!-- EN: Overexerted muscles struggle to perform even basic tasks. The price of temporary power. -->
-  <RatkinStrengthPotionWeakness.description>TODO</RatkinStrengthPotionWeakness.description>
+  <RatkinStrengthPotionWeakness.description>过度劳累的肌肉连基本任务都难以完成。这是临时力量的代价。</RatkinStrengthPotionWeakness.description>
   
 </LanguageData>

@@ -6,116 +6,116 @@
   <!-- EN: A murky green potion with a strong minty coolness and wormwood scent. It can neutralize toxins in the body, but the process causes severe discomfort. -->
   <RatkinAntidote.description>一瓶浑浊的绿色药水，闻起来有强烈的薄荷清凉感和苦艾叶味，能中和体内的毒素，但过程会引发剧烈不适。</RatkinAntidote.description>
   <!-- EN: Drink {0} -->
-  <RatkinAntidote.ingestible.ingestCommandString>饮用{0}</RatkinAntidote.ingestible.ingestCommandString>
+  <RatkinAntidote.ingestible.ingestCommandString>服用{0}</RatkinAntidote.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinAntidote.ingestible.ingestReportString>正在饮用{0}。</RatkinAntidote.ingestible.ingestReportString>
+  <RatkinAntidote.ingestible.ingestReportString>正在服用{0}。</RatkinAntidote.ingestible.ingestReportString>
   
   <!-- EN: ratkin berserk potion -->
   <RatkinBerserkPotion.label>鼠族狂暴药水</RatkinBerserkPotion.label>
   <!-- EN: A black-red potion that seems to be boiling, emitting sulfur and bloody scents. After consumption, it completely unleashes the inner beast, attacking friend and foe alike. -->
   <RatkinBerserkPotion.description>一瓶好似沸腾着的、散发出硫磺与血腥气的黑红色药水，饮下后会彻底释放内心的野兽，不分敌我。</RatkinBerserkPotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinBerserkPotion.ingestible.ingestCommandString>饮用{0}</RatkinBerserkPotion.ingestible.ingestCommandString>
+  <RatkinBerserkPotion.ingestible.ingestCommandString>服用{0}</RatkinBerserkPotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinBerserkPotion.ingestible.ingestReportString>正在饮用{0}。</RatkinBerserkPotion.ingestible.ingestReportString>
+  <RatkinBerserkPotion.ingestible.ingestReportString>正在服用{0}。</RatkinBerserkPotion.ingestible.ingestReportString>
   
   <!-- EN: ratkin brainwash potion -->
   <RatkinBrainwashPotion.label>鼠族洗脑药水</RatkinBrainwashPotion.label>
   <!-- EN: A potion of strange color, constantly churning with chaotic bubbles. Made from forbidden herbs and twisted magic, it can completely wash away a soul's past, leaving a blank canvas. -->
   <RatkinBrainwashPotion.description>一瓶色泽诡异、不断翻涌着混沌气泡的粘稠药水。它由禁忌的草药与扭曲的魔力调和而成，据说能彻底冲刷掉一个灵魂的过去，留下一片空白的画布。</RatkinBrainwashPotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinBrainwashPotion.ingestible.ingestCommandString>饮用{0}</RatkinBrainwashPotion.ingestible.ingestCommandString>
+  <RatkinBrainwashPotion.ingestible.ingestCommandString>服用{0}</RatkinBrainwashPotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinBrainwashPotion.ingestible.ingestReportString>正在饮用{0}。</RatkinBrainwashPotion.ingestible.ingestReportString>
+  <RatkinBrainwashPotion.ingestible.ingestReportString>正在服用{0}。</RatkinBrainwashPotion.ingestible.ingestReportString>
   
   <!-- EN: ratkin holy water -->
   <RatkinHolyWater.label>鼠族圣水</RatkinHolyWater.label>
   <!-- EN: A jar of salt water blessed by a priest, emitting a faint lavender fragrance. It can bring only peace to the soul. -->
   <RatkinHolyWater.description>一瓶被牧师祝福过的盐水，散发着淡淡的薰衣草香气，能也只能带来心灵的宁静。</RatkinHolyWater.description>
   <!-- EN: Drink {0} -->
-  <RatkinHolyWater.ingestible.ingestCommandString>饮用{0}</RatkinHolyWater.ingestible.ingestCommandString>
+  <RatkinHolyWater.ingestible.ingestCommandString>服用{0}</RatkinHolyWater.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinHolyWater.ingestible.ingestReportString>正在饮用{0}。</RatkinHolyWater.ingestible.ingestReportString>
+  <RatkinHolyWater.ingestible.ingestReportString>正在服用{0}。</RatkinHolyWater.ingestible.ingestReportString>
   
   <!-- EN: ratkin inspiration potion -->
   <RatkinInspirationPotion.label>鼠族灵感药水</RatkinInspirationPotion.label>
   <!-- EN: A blue potion that can inspire brilliance when consumed, but one may also become lost in it. -->
   <RatkinInspirationPotion.description>一瓶蓝色的药水，饮下它可以激发灵感，但也可能迷失其中。</RatkinInspirationPotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinInspirationPotion.ingestible.ingestCommandString>饮用{0}</RatkinInspirationPotion.ingestible.ingestCommandString>
+  <RatkinInspirationPotion.ingestible.ingestCommandString>服用{0}</RatkinInspirationPotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinInspirationPotion.ingestible.ingestReportString>正在饮用{0}。</RatkinInspirationPotion.ingestible.ingestReportString>
+  <RatkinInspirationPotion.ingestible.ingestReportString>正在服用{0}。</RatkinInspirationPotion.ingestible.ingestReportString>
   
   <!-- EN: ratkin intelligence potion -->
   <RatkinIntelligencePotion.label>鼠族灵智药水</RatkinIntelligencePotion.label>
   <!-- EN: A deep blue potion that makes thinking incredibly clear and sharp after consumption, but overexerting the mind may result in eternal emptiness. -->
-  <RatkinIntelligencePotion.description>一瓶幽蓝色的药水，饮用后思维将变得前所未有的清晰敏锐，但过度透支心智的代价是可能是永恒的空白。</RatkinIntelligencePotion.description>
+  <RatkinIntelligencePotion.description>一瓶幽蓝色的药水，服用后思维将变得前所未有的清晰敏锐，但过度透支心智的代价是可能是永恒的空白。</RatkinIntelligencePotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinIntelligencePotion.ingestible.ingestCommandString>饮用{0}</RatkinIntelligencePotion.ingestible.ingestCommandString>
+  <RatkinIntelligencePotion.ingestible.ingestCommandString>服用{0}</RatkinIntelligencePotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinIntelligencePotion.ingestible.ingestReportString>正在饮用{0}。</RatkinIntelligencePotion.ingestible.ingestReportString>
+  <RatkinIntelligencePotion.ingestible.ingestReportString>正在服用{0}。</RatkinIntelligencePotion.ingestible.ingestReportString>
   
   <!-- EN: ratkin invisibility potion -->
   <RatkinInvisibilityPotion.label>鼠族隐身药水</RatkinInvisibilityPotion.label>
   <!-- EN: A nearly transparent potion that only shows ripples when shaken. After consumption, one feels the body gradually blending into the surrounding environment. -->
   <RatkinInvisibilityPotion.description>一瓶近乎透明、只在晃动时泛起涟漪的药水，饮下后会感觉身体逐渐融入周围的环境。</RatkinInvisibilityPotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinInvisibilityPotion.ingestible.ingestCommandString>饮用{0}</RatkinInvisibilityPotion.ingestible.ingestCommandString>
+  <RatkinInvisibilityPotion.ingestible.ingestCommandString>服用{0}</RatkinInvisibilityPotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinInvisibilityPotion.ingestible.ingestReportString>正在饮用{0}。</RatkinInvisibilityPotion.ingestible.ingestReportString>
+  <RatkinInvisibilityPotion.ingestible.ingestReportString>正在服用{0}。</RatkinInvisibilityPotion.ingestible.ingestReportString>
   
   <!-- EN: ratkin love potion -->
   <RatkinLovePotion.label>鼠族催情药水</RatkinLovePotion.label>
   <!-- EN: A pink, heart-shaped potion emitting rich lavender and mysterious sweet fragrance that can greatly stir the user's desires. -->
   <RatkinLovePotion.description>一瓶粉红色的、散发着浓郁薰衣草与某种神秘甜香的心型药水，能极大地撩拨起使用者的情欲。</RatkinLovePotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinLovePotion.ingestible.ingestCommandString>饮用{0}</RatkinLovePotion.ingestible.ingestCommandString>
+  <RatkinLovePotion.ingestible.ingestCommandString>服用{0}</RatkinLovePotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinLovePotion.ingestible.ingestReportString>正在饮用{0}。</RatkinLovePotion.ingestible.ingestReportString>
+  <RatkinLovePotion.ingestible.ingestReportString>正在服用{0}。</RatkinLovePotion.ingestible.ingestReportString>
   
   <!-- EN: ratkin panacea -->
   <RatkinPanacea.label>鼠族万灵药</RatkinPanacea.label>
   <!-- EN: A viscous liquid emitting soft green light, with what appears to be stardust flowing within. It can purify all mortal ailments, but the body cannot withstand a second miracle in a short time. -->
   <RatkinPanacea.description>一瓶散发着柔和绿光的粘稠液体，其中仿佛有星尘流转。它能净化一切凡世的病痛，但身体无法短时间内承受第二次神迹。</RatkinPanacea.description>
   <!-- EN: Drink {0} -->
-  <RatkinPanacea.ingestible.ingestCommandString>饮用{0}</RatkinPanacea.ingestible.ingestCommandString>
+  <RatkinPanacea.ingestible.ingestCommandString>服用{0}</RatkinPanacea.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinPanacea.ingestible.ingestReportString>正在饮用{0}。</RatkinPanacea.ingestible.ingestReportString>
+  <RatkinPanacea.ingestible.ingestReportString>正在服用{0}。</RatkinPanacea.ingestible.ingestReportString>
   
   <!-- EN: ratkin rat poison -->
   <RatkinRatPoison.label>鼠族老鼠药</RatkinRatPoison.label>
   <!-- EN: A jar emitting sweet fruity fragrance mixed with a faint bitter almond scent from the murky liquid within. -->
   <RatkinRatPoison.description>一罐散发着甜腻果香与隐隐苦杏仁气味的浑浊液体。</RatkinRatPoison.description>
   <!-- EN: Drink {0} -->
-  <RatkinRatPoison.ingestible.ingestCommandString>饮用{0}</RatkinRatPoison.ingestible.ingestCommandString>
+  <RatkinRatPoison.ingestible.ingestCommandString>服用{0}</RatkinRatPoison.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinRatPoison.ingestible.ingestReportString>正在饮用{0}。</RatkinRatPoison.ingestible.ingestReportString>
+  <RatkinRatPoison.ingestible.ingestReportString>正在服用{0}。</RatkinRatPoison.ingestible.ingestReportString>
   
   <!-- EN: ratkin recovery potion -->
   <RatkinRecoveryPotion.label>鼠族康复药水</RatkinRecoveryPotion.label>
   <!-- EN: A viscous potion glowing with a soft grass-green light, emitting the gentle aroma of sage and licorice. When consumed, it feels like a warm current spreads from the stomach to the limbs, accelerating the body's natural recovery. -->
   <RatkinRecoveryPotion.description>一瓶泛着柔和草绿色微光的粘稠药水，散发着鼠尾草与甘草的温和香气。饮下后仿佛有一股暖流自胃部扩散至四肢，加速身体的自然恢复。</RatkinRecoveryPotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinRecoveryPotion.ingestible.ingestCommandString>饮用{0}</RatkinRecoveryPotion.ingestible.ingestCommandString>
+  <RatkinRecoveryPotion.ingestible.ingestCommandString>服用{0}</RatkinRecoveryPotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinRecoveryPotion.ingestible.ingestReportString>正在饮用{0}。</RatkinRecoveryPotion.ingestible.ingestReportString>
+  <RatkinRecoveryPotion.ingestible.ingestReportString>正在服用{0}。</RatkinRecoveryPotion.ingestible.ingestReportString>
   
   <!-- EN: ratkin speed potion -->
   <RatkinSpeedPotion.label>鼠族速度药水</RatkinSpeedPotion.label>
   <!-- EN: A flickering blue-green potion that makes your heart race just from smelling it. -->
   <RatkinSpeedPotion.description>一瓶闪烁着的蓝绿色药水，光是闻到气味就让人心跳加速。</RatkinSpeedPotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinSpeedPotion.ingestible.ingestCommandString>饮用{0}</RatkinSpeedPotion.ingestible.ingestCommandString>
+  <RatkinSpeedPotion.ingestible.ingestCommandString>服用{0}</RatkinSpeedPotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinSpeedPotion.ingestible.ingestReportString>正在饮用{0}。</RatkinSpeedPotion.ingestible.ingestReportString>
+  <RatkinSpeedPotion.ingestible.ingestReportString>正在服用{0}。</RatkinSpeedPotion.ingestible.ingestReportString>
   
   <!-- EN: ratkin strength potion -->
   <RatkinStrengthPotion.label>鼠族巨力药水</RatkinStrengthPotion.label>
   <!-- EN: A scorching, lava-like dark red viscous potion. After consumption, muscles instantly swell with tremendous power. -->
   <RatkinStrengthPotion.description>一瓶滚烫的、如同熔岩般暗红色的粘稠药水，饮下后肌肉会瞬间膨胀，充满强大的力量。</RatkinStrengthPotion.description>
   <!-- EN: Drink {0} -->
-  <RatkinStrengthPotion.ingestible.ingestCommandString>饮用{0}</RatkinStrengthPotion.ingestible.ingestCommandString>
+  <RatkinStrengthPotion.ingestible.ingestCommandString>服用{0}</RatkinStrengthPotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
-  <RatkinStrengthPotion.ingestible.ingestReportString>正在饮用{0}。</RatkinStrengthPotion.ingestible.ingestReportString>
+  <RatkinStrengthPotion.ingestible.ingestReportString>正在服用{0}。</RatkinStrengthPotion.ingestible.ingestReportString>
   
 </LanguageData>

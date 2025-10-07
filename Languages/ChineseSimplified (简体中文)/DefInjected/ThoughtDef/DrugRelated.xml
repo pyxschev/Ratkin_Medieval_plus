@@ -2,123 +2,123 @@
 <LanguageData>
   
   <!-- EN: purging sickness -->
-  <RatkinAntidoteNauseaThought.stages.purging_sickness.label>TODO</RatkinAntidoteNauseaThought.stages.purging_sickness.label>
+  <RatkinAntidoteNauseaThought.stages.purging_sickness.label>排毒不适</RatkinAntidoteNauseaThought.stages.purging_sickness.label>
   <!-- EN: The toxin purging process makes me feel sick and weak. -->
-  <RatkinAntidoteNauseaThought.stages.purging_sickness.description>TODO</RatkinAntidoteNauseaThought.stages.purging_sickness.description>
+  <RatkinAntidoteNauseaThought.stages.purging_sickness.description>排毒过程让我感到恶心和虚弱。</RatkinAntidoteNauseaThought.stages.purging_sickness.description>
   
   <!-- EN: feeling better after vomiting -->
-  <RatkinAntidoteThought.stages.feeling_better_after_vomiting.label>TODO</RatkinAntidoteThought.stages.feeling_better_after_vomiting.label>
+  <RatkinAntidoteThought.stages.feeling_better_after_vomiting.label>吐完之后...感觉身体好起来了</RatkinAntidoteThought.stages.feeling_better_after_vomiting.label>
   <!-- EN: After vomiting... I feel better. The toxins are gone. -->
-  <RatkinAntidoteThought.stages.feeling_better_after_vomiting.description>TODO</RatkinAntidoteThought.stages.feeling_better_after_vomiting.description>
+  <RatkinAntidoteThought.stages.feeling_better_after_vomiting.description>呕吐之后...我感觉好多了。毒素都没了。</RatkinAntidoteThought.stages.feeling_better_after_vomiting.description>
   
   <!-- EN: completely exhausted -->
-  <RatkinBerserkExhaustionThought.stages.completely_exhausted.label>TODO</RatkinBerserkExhaustionThought.stages.completely_exhausted.label>
+  <RatkinBerserkExhaustionThought.stages.completely_exhausted.label>完全筋疲力尽</RatkinBerserkExhaustionThought.stages.completely_exhausted.label>
   <!-- EN: I'm completely exhausted after the berserker rage. Can barely stay conscious. -->
-  <RatkinBerserkExhaustionThought.stages.completely_exhausted.description>TODO</RatkinBerserkExhaustionThought.stages.completely_exhausted.description>
+  <RatkinBerserkExhaustionThought.stages.completely_exhausted.description>狂暴之后我完全筋疲力尽。几乎无法保持清醒。</RatkinBerserkExhaustionThought.stages.completely_exhausted.description>
   
   <!-- EN: WAAAGH!! -->
-  <RatkinBerserkThought.stages.WAAAGH.label>TODO</RatkinBerserkThought.stages.WAAAGH.label>
+  <RatkinBerserkThought.stages.WAAAGH.label>WAAAGH！！</RatkinBerserkThought.stages.WAAAGH.label>
   <!-- EN: WAAAGH!! Incredible power flows through my veins! -->
-  <RatkinBerserkThought.stages.WAAAGH.description>TODO</RatkinBerserkThought.stages.WAAAGH.description>
+  <RatkinBerserkThought.stages.WAAAGH.description>WAAAGH！！难以置信的力量在我血管中流淌！</RatkinBerserkThought.stages.WAAAGH.description>
   
   <!-- EN: empty mind -->
-  <RatkinBrainwashThought.stages.empty_mind.label>TODO</RatkinBrainwashThought.stages.empty_mind.label>
+  <RatkinBrainwashThought.stages.empty_mind.label>空洞心智</RatkinBrainwashThought.stages.empty_mind.label>
   <!-- EN: My mind feels hollow and empty. I can barely think. -->
-  <RatkinBrainwashThought.stages.empty_mind.description>TODO</RatkinBrainwashThought.stages.empty_mind.description>
+  <RatkinBrainwashThought.stages.empty_mind.description>我的心智感觉空洞而空虚。我几乎无法思考。</RatkinBrainwashThought.stages.empty_mind.description>
   
   <!-- EN: eccentric behavior -->
-  <RatkinEccentricMindThought.stages.eccentric_behavior.label>TODO</RatkinEccentricMindThought.stages.eccentric_behavior.label>
+  <RatkinEccentricMindThought.stages.eccentric_behavior.label>怪诞不经</RatkinEccentricMindThought.stages.eccentric_behavior.label>
   <!-- EN: My mind works differently now. Others find my behavior strange. -->
-  <RatkinEccentricMindThought.stages.eccentric_behavior.description>TODO</RatkinEccentricMindThought.stages.eccentric_behavior.description>
+  <RatkinEccentricMindThought.stages.eccentric_behavior.description>我的思维现在运作方式不同了。其他人觉得我的行为很奇怪。</RatkinEccentricMindThought.stages.eccentric_behavior.description>
   
   <!-- EN: feeling blessed -->
-  <RatkinHolyWaterThought.stages.feeling_blessed.label>TODO</RatkinHolyWaterThought.stages.feeling_blessed.label>
+  <RatkinHolyWaterThought.stages.feeling_blessed.label>感觉受到祝福了</RatkinHolyWaterThought.stages.feeling_blessed.label>
   <!-- EN: I feel blessed. Peace flows through my soul. -->
-  <RatkinHolyWaterThought.stages.feeling_blessed.description>TODO</RatkinHolyWaterThought.stages.feeling_blessed.description>
+  <RatkinHolyWaterThought.stages.feeling_blessed.description>我感觉受到了祝福。宁静流过我的灵魂。</RatkinHolyWaterThought.stages.feeling_blessed.description>
   
   <!-- EN: I understand! -->
-  <RatkinInspirationThought.stages.I_understand.label>TODO</RatkinInspirationThought.stages.I_understand.label>
+  <RatkinInspirationThought.stages.I_understand.label>我懂了！</RatkinInspirationThought.stages.I_understand.label>
   <!-- EN: I understand! Brilliant insights flow through my mind. -->
-  <RatkinInspirationThought.stages.I_understand.description>TODO</RatkinInspirationThought.stages.I_understand.description>
+  <RatkinInspirationThought.stages.I_understand.description>我懂了！绝妙的洞察在我脑海中流淌。</RatkinInspirationThought.stages.I_understand.description>
   
   <!-- EN: I'm invisible! -->
-  <RatkinInvisibilityThought.stages.Im_invisible.label>TODO</RatkinInvisibilityThought.stages.Im_invisible.label>
+  <RatkinInvisibilityThought.stages.Im_invisible.label>我隐身了！</RatkinInvisibilityThought.stages.Im_invisible.label>
   <!-- EN: I'm invisible! I can move unseen through the world. -->
-  <RatkinInvisibilityThought.stages.Im_invisible.description>TODO</RatkinInvisibilityThought.stages.Im_invisible.description>
+  <RatkinInvisibilityThought.stages.Im_invisible.description>我隐身了！我可以在世界中不被察觉地移动。</RatkinInvisibilityThought.stages.Im_invisible.description>
   
   <!-- EN: was that really me? -->
-  <RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.label>TODO</RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.label>
+  <RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.label>这真的是我吗？</RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.label>
   <!-- EN: Was that really me? I'm so embarrassed by my behavior. -->
-  <RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.description>TODO</RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.description>
+  <RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.description>那真的是我吗？我为自己的行为感到非常尴尬。</RatkinLovePotionEmbarrassmentThought.stages.was_that_really_me.description>
   
   <!-- EN: body feels hot -->
-  <RatkinLovePotionThought.stages.body_feels_hot.label>TODO</RatkinLovePotionThought.stages.body_feels_hot.label>
+  <RatkinLovePotionThought.stages.body_feels_hot.label>身体好热...</RatkinLovePotionThought.stages.body_feels_hot.label>
   <!-- EN: Body feels so hot... overwhelming desires flood my mind. -->
-  <RatkinLovePotionThought.stages.body_feels_hot.description>TODO</RatkinLovePotionThought.stages.body_feels_hot.description>
+  <RatkinLovePotionThought.stages.body_feels_hot.description>身体感觉好热...强烈的欲望淹没了我的理智。</RatkinLovePotionThought.stages.body_feels_hot.description>
   
   <!-- EN: miraculous healing -->
-  <RatkinMajorHealingPotionThought.stages.miraculous_healing.label>TODO</RatkinMajorHealingPotionThought.stages.miraculous_healing.label>
+  <RatkinMajorHealingPotionThought.stages.miraculous_healing.label>神乎其技！我的伤快好了！</RatkinMajorHealingPotionThought.stages.miraculous_healing.label>
   <!-- EN: Miraculous! My wounds are almost healed! -->
-  <RatkinMajorHealingPotionThought.stages.miraculous_healing.description>TODO</RatkinMajorHealingPotionThought.stages.miraculous_healing.description>
+  <RatkinMajorHealingPotionThought.stages.miraculous_healing.description>神奇！我的伤口几乎都愈合了！</RatkinMajorHealingPotionThought.stages.miraculous_healing.description>
   
   <!-- EN: many wounds don't hurt -->
-  <RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.label>TODO</RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.label>
+  <RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.label>好多伤口都不疼了！</RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.label>
   <!-- EN: So many wounds don't hurt anymore! -->
-  <RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.description>TODO</RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.description>
+  <RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.description>这么多伤口都不疼了！</RatkinMediumHealingPotionThought.stages.many_wounds_dont_hurt.description>
   
   <!-- EN: memories erased -->
-  <RatkinMemoryLossThought.stages.memories_erased.label>TODO</RatkinMemoryLossThought.stages.memories_erased.label>
+  <RatkinMemoryLossThought.stages.memories_erased.label>呃啊……我从哪来的？</RatkinMemoryLossThought.stages.memories_erased.label>
   <!-- EN: All my memories of relationships and culture have been wiped away. I feel lost. -->
-  <RatkinMemoryLossThought.stages.memories_erased.description>TODO</RatkinMemoryLossThought.stages.memories_erased.description>
+  <RatkinMemoryLossThought.stages.memories_erased.description>我所有关于人际关系和文化的记忆都被抹去了。我感到迷失。</RatkinMemoryLossThought.stages.memories_erased.description>
   
   <!-- EN: wound pain lessened -->
-  <RatkinMinorHealingPotionThought.stages.wound_pain_lessened.label>TODO</RatkinMinorHealingPotionThought.stages.wound_pain_lessened.label>
+  <RatkinMinorHealingPotionThought.stages.wound_pain_lessened.label>伤口的灼痛感减轻了！</RatkinMinorHealingPotionThought.stages.wound_pain_lessened.label>
   <!-- EN: The burning pain of wounds has lessened! -->
-  <RatkinMinorHealingPotionThought.stages.wound_pain_lessened.description>TODO</RatkinMinorHealingPotionThought.stages.wound_pain_lessened.description>
+  <RatkinMinorHealingPotionThought.stages.wound_pain_lessened.description>伤口的灼痛感减轻了！</RatkinMinorHealingPotionThought.stages.wound_pain_lessened.description>
   
   <!-- EN: ailments purified -->
-  <RatkinPanaceaThought.stages.ailments_purified.label>TODO</RatkinPanaceaThought.stages.ailments_purified.label>
+  <RatkinPanaceaThought.stages.ailments_purified.label>病痛被彻底净化了！</RatkinPanaceaThought.stages.ailments_purified.label>
   <!-- EN: All ailments have been completely purified! -->
-  <RatkinPanaceaThought.stages.ailments_purified.description>TODO</RatkinPanaceaThought.stages.ailments_purified.description>
+  <RatkinPanaceaThought.stages.ailments_purified.description>所有病痛都被彻底净化了！</RatkinPanaceaThought.stages.ailments_purified.description>
   
   <!-- EN: divine rejection -->
-  <RatkinPanaceaToleranceThought.stages.divine_rejection.label>TODO</RatkinPanaceaToleranceThought.stages.divine_rejection.label>
+  <RatkinPanaceaToleranceThought.stages.divine_rejection.label>神圣排斥</RatkinPanaceaToleranceThought.stages.divine_rejection.label>
   <!-- EN: My body rejects divine healing. I feel spiritually drained. -->
-  <RatkinPanaceaToleranceThought.stages.divine_rejection.description>TODO</RatkinPanaceaToleranceThought.stages.divine_rejection.description>
+  <RatkinPanaceaToleranceThought.stages.divine_rejection.description>我的身体排斥神圣治愈。我感到精神枯竭。</RatkinPanaceaToleranceThought.stages.divine_rejection.description>
   
   <!-- EN: mind damaged -->
-  <RatkinPermanentDementiaThought.stages.mind_damaged.label>TODO</RatkinPermanentDementiaThought.stages.mind_damaged.label>
+  <RatkinPermanentDementiaThought.stages.mind_damaged.label>心智受损</RatkinPermanentDementiaThought.stages.mind_damaged.label>
   <!-- EN: My mind has been permanently damaged. Thoughts are slow and confused. -->
-  <RatkinPermanentDementiaThought.stages.mind_damaged.description>TODO</RatkinPermanentDementiaThought.stages.mind_damaged.description>
+  <RatkinPermanentDementiaThought.stages.mind_damaged.description>我的心智已经永久受损。思维缓慢而混乱。</RatkinPermanentDementiaThought.stages.mind_damaged.description>
   
   <!-- EN: rat poison! -->
-  <RatkinPoisonThought.stages.rat_poison.label>TODO</RatkinPoisonThought.stages.rat_poison.label>
+  <RatkinPoisonThought.stages.rat_poison.label>老鼠药...?老鼠药！</RatkinPoisonThought.stages.rat_poison.label>
   <!-- EN: Rat poison...? Rat poison! I feel terrible! -->
-  <RatkinPoisonThought.stages.rat_poison.description>TODO</RatkinPoisonThought.stages.rat_poison.description>
+  <RatkinPoisonThought.stages.rat_poison.description>老鼠药...？老鼠药！我感觉糟透了！</RatkinPoisonThought.stages.rat_poison.description>
   
   <!-- EN: accelerated metabolism -->
-  <RatkinRecoveryHungerThought.stages.accelerated_metabolism.label>TODO</RatkinRecoveryHungerThought.stages.accelerated_metabolism.label>
+  <RatkinRecoveryHungerThought.stages.accelerated_metabolism.label>新陈代谢加速</RatkinRecoveryHungerThought.stages.accelerated_metabolism.label>
   <!-- EN: My body is healing fast, but I'm getting hungry much quicker. -->
-  <RatkinRecoveryHungerThought.stages.accelerated_metabolism.description>TODO</RatkinRecoveryHungerThought.stages.accelerated_metabolism.description>
+  <RatkinRecoveryHungerThought.stages.accelerated_metabolism.description>我的身体愈合很快，但我饿得也更快了。</RatkinRecoveryHungerThought.stages.accelerated_metabolism.description>
   
   <!-- EN: body pain is leaving me -->
-  <RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.label>TODO</RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.label>
+  <RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.label>身体的痛苦正在远离我</RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.label>
   <!-- EN: The soothing warmth spreads through my body, healing feels faster. -->
-  <RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.description>TODO</RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.description>
+  <RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.description>舒缓的温暖在我体内蔓延，愈合感觉更快了。</RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.description>
   
   <!-- EN: feel drained -->
-  <RatkinSpeedCrashThought.stages.feel_drained.label>TODO</RatkinSpeedCrashThought.stages.feel_drained.label>
+  <RatkinSpeedCrashThought.stages.feel_drained.label>我感觉身体被掏空...</RatkinSpeedCrashThought.stages.feel_drained.label>
   <!-- EN: I feel drained... my body has been emptied. -->
-  <RatkinSpeedCrashThought.stages.feel_drained.description>TODO</RatkinSpeedCrashThought.stages.feel_drained.description>
+  <RatkinSpeedCrashThought.stages.feel_drained.description>我感觉被掏空了...我的身体已经被榨干了。</RatkinSpeedCrashThought.stages.feel_drained.description>
   
   <!-- EN: wind beneath my feet -->
-  <RatkinSpeedPotionThought.stages.wind_beneath_my_feet.label>TODO</RatkinSpeedPotionThought.stages.wind_beneath_my_feet.label>
+  <RatkinSpeedPotionThought.stages.wind_beneath_my_feet.label>脚下的风在催促我！</RatkinSpeedPotionThought.stages.wind_beneath_my_feet.label>
   <!-- EN: The wind beneath my feet urges me on! -->
-  <RatkinSpeedPotionThought.stages.wind_beneath_my_feet.description>TODO</RatkinSpeedPotionThought.stages.wind_beneath_my_feet.description>
+  <RatkinSpeedPotionThought.stages.wind_beneath_my_feet.description>脚下的风在催促我前进！</RatkinSpeedPotionThought.stages.wind_beneath_my_feet.description>
   
   <!-- EN: muscle fatigue -->
-  <RatkinStrengthWeaknessThought.stages.muscle_fatigue.label>TODO</RatkinStrengthWeaknessThought.stages.muscle_fatigue.label>
+  <RatkinStrengthWeaknessThought.stages.muscle_fatigue.label>肌肉疲劳</RatkinStrengthWeaknessThought.stages.muscle_fatigue.label>
   <!-- EN: My muscles ache and feel weak after the temporary strength. -->
-  <RatkinStrengthWeaknessThought.stages.muscle_fatigue.description>TODO</RatkinStrengthWeaknessThought.stages.muscle_fatigue.description>
+  <RatkinStrengthWeaknessThought.stages.muscle_fatigue.description>临时力量消失后，我的肌肉酸痛而虚弱。</RatkinStrengthWeaknessThought.stages.muscle_fatigue.description>
   
 </LanguageData>
