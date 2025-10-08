@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: RomanceAttempt spree -->
+  <RatkinRomanceAttemptState.label>求爱狂热</RatkinRomanceAttemptState.label>
+  <!-- EN: Mental state: Romance attempt spree (targeting {0}) -->
+  <RatkinRomanceAttemptState.baseInspectLine>精神状态：求爱狂热（目标：{0}）</RatkinRomanceAttemptState.baseInspectLine>
+  <!-- EN: {0} is on a romance attempt spree targeting {1}.\n\n[PAWN_pronoun] will pursue {1} relentlessly, attempting to express love and deep feelings. -->
+  <RatkinRomanceAttemptState.beginLetter>{0}正在对{1}疯狂求爱。\n\n[PAWN_pronoun]会不懈地追求{1}，试图表达爱意和深情。</RatkinRomanceAttemptState.beginLetter>
+  <!-- EN: {0} is no longer on a romance attempt spree. -->
+  <RatkinRomanceAttemptState.recoveryMessage>{0}冷静下来，不再进行求爱了。</RatkinRomanceAttemptState.recoveryMessage>
+  
+</LanguageData>

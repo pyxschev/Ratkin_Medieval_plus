@@ -106,6 +106,11 @@
   <!-- EN: The soothing warmth spreads through my body, healing feels faster. -->
   <RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.description>舒缓的温暖在我体内蔓延，愈合感觉更快了。</RatkinRecoveryPotionThought.stages.body_pain_is_leaving_me.description>
   
+  <!-- EN: where did I come from? -->
+  <RatkinResurrectionSicknessThought.stages.where_did_I_come_from.label>TODO</RatkinResurrectionSicknessThought.stages.where_did_I_come_from.label>
+  <!-- EN: Ugh... where did I come from? I feel lost and confused. -->
+  <RatkinResurrectionSicknessThought.stages.where_did_I_come_from.description>TODO</RatkinResurrectionSicknessThought.stages.where_did_I_come_from.description>
+  
   <!-- EN: feel drained -->
   <RatkinSpeedCrashThought.stages.feel_drained.label>我感觉身体被掏空...</RatkinSpeedCrashThought.stages.feel_drained.label>
   <!-- EN: I feel drained... my body has been emptied. -->

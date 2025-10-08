@@ -76,6 +76,11 @@
   <!-- EN: Body pain is leaving me. A soothing warmth spreads through the body, accelerating natural healing. -->
   <RatkinRecoveryPotionHigh.description>身体的痛苦正在远离我。舒缓的温暖流遍全身，加速自然愈合。</RatkinRecoveryPotionHigh.description>
   
+  <!-- EN: resurrection sickness -->
+  <RatkinResurrectionSickness.label>TODO</RatkinResurrectionSickness.label>
+  <!-- EN: Ugh... where did I come from? The soul struggles to reconnect with the body after being forcibly returned from death. -->
+  <RatkinResurrectionSickness.description>TODO</RatkinResurrectionSickness.description>
+  
   <!-- EN: speed potion effect -->
   <RatkinSpeedPotionHigh.label>速度药水效果</RatkinSpeedPotionHigh.label>
   <!-- EN: The wind beneath my feet urges me on! Enhanced movement speed but at a cost. -->

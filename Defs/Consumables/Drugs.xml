@@ -18,7 +18,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.40</joy>
@@ -61,7 +61,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.20</joy>
@@ -108,7 +108,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.40</joy>
@@ -155,7 +155,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.60</joy>
@@ -203,7 +203,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.50</joy>
@@ -246,7 +246,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.80</joy>
@@ -334,7 +334,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>-1.0</joy>
@@ -378,7 +378,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.30</joy>
@@ -419,7 +419,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.60</joy>
@@ -464,7 +464,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.10</joy>
@@ -505,7 +505,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.60</joy>
@@ -547,7 +547,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.50</joy>
@@ -589,7 +589,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.50</joy>
@@ -632,7 +632,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>0.70</joy>
@@ -674,7 +674,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>1.0</joy>
@@ -716,7 +716,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>-2.0</joy>
@@ -757,7 +757,7 @@
     </statBases>
     <techLevel>Medieval</techLevel>
     <ingestible>
-      
+      <useDuration>180</useDuration>
       <foodType>Processed, Fluid</foodType>
       <joyKind>Chemical</joyKind>
       <joy>-0.20</joy>
