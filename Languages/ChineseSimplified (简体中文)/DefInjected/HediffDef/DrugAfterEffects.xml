@@ -22,6 +22,11 @@
   <!-- EN: The mind has been permanently altered by excessive inspiration. Strange and unpredictable behavior patterns emerge. -->
   <RatkinEccentricMind.description>心智被过度的灵感永久改变了。出现了奇怪且不可预测的行为模式。</RatkinEccentricMind.description>
   
+  <!-- EN: heat residue -->
+  <RatkinFireResistAfterEffect.label>TODO</RatkinFireResistAfterEffect.label>
+  <!-- EN: My skin is burning! I feel like I'm about to combust! The accumulated heat in the body is violently dissipating, greatly increasing flammability. -->
+  <RatkinFireResistAfterEffect.description>TODO</RatkinFireResistAfterEffect.description>
+  
   <!-- EN: embarrassment -->
   <RatkinLovePotionEmbarrassment.label>这真的是我吗？</RatkinLovePotionEmbarrassment.label>
   <!-- EN: Was that really me? Deep shame and regret about recent passionate behavior. -->

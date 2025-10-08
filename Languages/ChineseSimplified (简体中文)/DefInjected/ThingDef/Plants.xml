@@ -1,27 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: ratkin aconite -->
+  <!-- EN: aconite -->
   <RatkinPlant_Aconite.label>附子草</RatkinPlant_Aconite.label>
   <!-- EN: A dangerous plant with deep purple helmet-shaped flowers and thick black roots. The entire plant contains deadly aconitine toxins. In medieval times, it was often used to coat arrows for hunting and warfare. Skilled alchemists can transform it into potent reagents, but handling requires extreme caution. -->
   <RatkinPlant_Aconite.description>一种开着深紫色头盔状花朵的剧毒植物。其根系粗壮呈黑色，全株含有致命的乌头碱。在中世纪，它常被涂抹在箭矢上用于狩猎与战争，而掌握其特性的炼金术士则能将其转化为强效的药引。</RatkinPlant_Aconite.description>
   
-  <!-- EN: ratkin lavender -->
+  <!-- EN: lavender -->
   <RatkinPlant_Lavender.label>薰衣草</RatkinPlant_Lavender.label>
   <!-- EN: An aromatic plant with purple spike-shaped flowers. The dried flower spikes can be made into sachets, perfumes, or used to brew emotion-soothing potions. When placed in rooms, it enhances environmental beauty with its pleasant fragrance. -->
   <RatkinPlant_Lavender.description>开着紫色穗状花的芳香植物，其干燥花穗可制成香包、香水，或用于调制安抚情绪的药水。放置于房间中可提升环境美观度。</RatkinPlant_Lavender.description>
   
-  <!-- EN: ratkin licorice -->
+  <!-- EN: licorice -->
   <RatkinPlant_Licorice.label>甘草</RatkinPlant_Licorice.label>
   <!-- EN: A hardy plant with sweet-tasting roots that can soothe respiratory discomfort. The roots are commonly used as a sweetening agent in various medicinal recipes and provide a pleasant, sweet flavor when consumed directly. -->
   <RatkinPlant_Licorice.description>一种味道甘甜的根系，能舒缓呼吸道不适，也是许多药方中用于调和苦味的辅料。</RatkinPlant_Licorice.description>
+  
+  <!-- EN: marigold -->
+  <RatkinPlant_Marigold.label>TODO</RatkinPlant_Marigold.label>
+  <!-- EN: A vibrant flowering plant with bright orange or yellow blooms. Known for its wound-healing and anti-inflammatory properties, marigold flowers are prized by healers and alchemists. The cheerful blossoms not only brighten gardens but also serve as valuable ingredients for healing potions and remedies. -->
+  <RatkinPlant_Marigold.description>TODO</RatkinPlant_Marigold.description>
   
   <!-- EN: Sage -->
   <RatkinPlant_Sage.label>鼠尾草</RatkinPlant_Sage.label>
   <!-- EN: A hardy herb with broad, aromatic leaves that emit a distinctive clean fragrance. Commonly used for air purification, cooking seasoning, and as a medicinal ingredient in recovery broths. When burned, it releases a soothing aroma. -->
   <RatkinPlant_Sage.description>一种叶片宽厚、带有独特清香的草本植物，常被用于净化空气、调味烹饪，或作为药引加入康复药膳中。</RatkinPlant_Sage.description>
   
-  <!-- EN: ratkin valerian -->
+  <!-- EN: valerian -->
   <RatkinPlant_Valerian.label>缬草</RatkinPlant_Valerian.label>
   <!-- EN: A robust herb with thick roots and delicate pale pink flowers. The root system has calming and sedative properties, making it valuable for creating soothing potions and sleep aids. The flowers emit a gentle, relaxing fragrance. -->
   <RatkinPlant_Valerian.description>一种根系粗壮、开淡粉色小花的草本植物，其根部具有镇静安神的功效，是制作助眠与舒缓药水的重要原料。</RatkinPlant_Valerian.description>

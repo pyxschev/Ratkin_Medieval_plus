@@ -12,7 +12,7 @@ namespace RkM
     {
         public List<HediffDef> excludedHediffs;       
         public List<string> excludedCategories;       
-        public bool cureAddictions = false;           
+        public bool cureAddictions = true;           
         public bool cureDiseases = true;              
         public bool cureToxins = true;               
         public bool cureInjuries = false;             

@@ -191,4 +191,42 @@
     </plant>
   </ThingDef>
 
+  <!-- Marigold - 金盏花 -->
+  <ThingDef ParentName="PlantBase">
+    <defName>RatkinPlant_Marigold</defName>
+    <label>marigold</label>
+    <description>A vibrant flowering plant with bright orange or yellow blooms. Known for its wound-healing and anti-inflammatory properties, marigold flowers are prized by healers and alchemists. The cheerful blossoms not only brighten gardens but also serve as valuable ingredients for healing potions and remedies.</description>
+    <statBases>
+      <MaxHitPoints>65</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/Marigold</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(1.5, 1.5)</drawSize>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <immatureGraphicPath>Things/Plants/Marigold_Immature</immatureGraphicPath>
+      <leaflessGraphicPath>Things/Plants/Marigold</leaflessGraphicPath>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <!-- <harvestedThingDef>RatkinMarigold</harvestedThingDef> -->
+      <harvestYield>9</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>13</growDays>
+      <visualSizeRange>0.5~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Health</purpose>
+      <humanFoodPlant>false</humanFoodPlant>
+    </plant>
+  </ThingDef>
+
 </Defs>

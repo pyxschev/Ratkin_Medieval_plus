@@ -28,6 +28,15 @@
   <!-- EN: Drinking {0}. -->
   <RatkinBrainwashPotion.ingestible.ingestReportString>正在服用{0}。</RatkinBrainwashPotion.ingestible.ingestReportString>
   
+  <!-- EN: ratkin fire resistance potion -->
+  <RatkinFireResistPotion.label>TODO</RatkinFireResistPotion.label>
+  <!-- EN: An amber-colored viscous potion with tiny lava-like glowing particles suspended within. It can make the body resist fire damage through unknown principles. After the effect ends, the body will feel burning pain all over. -->
+  <RatkinFireResistPotion.description>TODO</RatkinFireResistPotion.description>
+  <!-- EN: Drink {0} -->
+  <RatkinFireResistPotion.ingestible.ingestCommandString>TODO</RatkinFireResistPotion.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <RatkinFireResistPotion.ingestible.ingestReportString>TODO</RatkinFireResistPotion.ingestible.ingestReportString>
+  
   <!-- EN: ratkin holy water -->
   <RatkinHolyWater.label>鼠族圣水</RatkinHolyWater.label>
   <!-- EN: A jar of salt water blessed by a priest, emitting a faint lavender fragrance. It can bring only peace to the soul. -->
@@ -73,6 +82,33 @@
   <!-- EN: Drinking {0}. -->
   <RatkinLovePotion.ingestible.ingestReportString>正在服用{0}。</RatkinLovePotion.ingestible.ingestReportString>
   
+  <!-- EN: ratkin major healing potion -->
+  <RatkinMajorHealingPotion.label>TODO</RatkinMajorHealingPotion.label>
+  <!-- EN: A potion as dazzling as liquid ruby, containing near-miraculous healing power, but every use is a bargain with death itself. -->
+  <RatkinMajorHealingPotion.description>TODO</RatkinMajorHealingPotion.description>
+  <!-- EN: Drink {0} -->
+  <RatkinMajorHealingPotion.ingestible.ingestCommandString>TODO</RatkinMajorHealingPotion.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <RatkinMajorHealingPotion.ingestible.ingestReportString>TODO</RatkinMajorHealingPotion.ingestible.ingestReportString>
+  
+  <!-- EN: ratkin medium healing potion -->
+  <RatkinMediumHealingPotion.label>TODO</RatkinMediumHealingPotion.label>
+  <!-- EN: A deep red potion thick as blood, shimmering with the metallic luster characteristic of dragon's blood resin. It can treat multiple wounds simultaneously, but the price is a more intense physical burden. -->
+  <RatkinMediumHealingPotion.description>TODO</RatkinMediumHealingPotion.description>
+  <!-- EN: Drink {0} -->
+  <RatkinMediumHealingPotion.ingestible.ingestCommandString>TODO</RatkinMediumHealingPotion.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <RatkinMediumHealingPotion.ingestible.ingestReportString>TODO</RatkinMediumHealingPotion.ingestible.ingestReportString>
+  
+  <!-- EN: ratkin minor healing potion -->
+  <RatkinMinorHealingPotion.label>TODO</RatkinMinorHealingPotion.label>
+  <!-- EN: A rather murky red potion. It can quickly stop bleeding and relieve minor injuries, but over-dependence will disrupt the body's self-healing mechanisms. -->
+  <RatkinMinorHealingPotion.description>TODO</RatkinMinorHealingPotion.description>
+  <!-- EN: Drink {0} -->
+  <RatkinMinorHealingPotion.ingestible.ingestCommandString>TODO</RatkinMinorHealingPotion.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <RatkinMinorHealingPotion.ingestible.ingestReportString>TODO</RatkinMinorHealingPotion.ingestible.ingestReportString>
+  
   <!-- EN: ratkin panacea -->
   <RatkinPanacea.label>鼠族万灵药</RatkinPanacea.label>
   <!-- EN: A viscous liquid emitting soft green light, with what appears to be stardust flowing within. It can purify all mortal ailments, but the body cannot withstand a second miracle in a short time. -->
@@ -99,6 +135,13 @@
   <RatkinRecoveryPotion.ingestible.ingestCommandString>服用{0}</RatkinRecoveryPotion.ingestible.ingestCommandString>
   <!-- EN: Drinking {0}. -->
   <RatkinRecoveryPotion.ingestible.ingestReportString>正在服用{0}。</RatkinRecoveryPotion.ingestible.ingestReportString>
+  
+  <!-- EN: ratkin resurrection potion -->
+  <RatkinResurrectionPotion.label>TODO</RatkinResurrectionPotion.label>
+  <!-- EN: A potion black as the abyss, yet flickering with phosphorescent light, this ominous brew desecrates the laws of death, forcibly calling back the souls of the departed. The resurrected often suffer from severe disorientation and memory loss, struggling to reconnect with their former lives. -->
+  <RatkinResurrectionPotion.description>TODO</RatkinResurrectionPotion.description>
+  <!-- EN: Use {0_label} -->
+  <RatkinResurrectionPotion.comps.CompUsable.useLabel>TODO</RatkinResurrectionPotion.comps.CompUsable.useLabel>
   
   <!-- EN: ratkin speed potion -->
   <RatkinSpeedPotion.label>鼠族速度药水</RatkinSpeedPotion.label>

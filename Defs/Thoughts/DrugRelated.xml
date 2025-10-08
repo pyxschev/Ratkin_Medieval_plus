@@ -186,7 +186,7 @@
   <!-- Negative Drug Effects Thoughts -->
 
   <!-- Ratkin Resurrection Sickness Thought -->
-  <!-- <ThoughtDef>
+  <ThoughtDef>
     <defName>RatkinResurrectionSicknessThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>RatkinResurrectionSickness</hediff>
@@ -198,7 +198,7 @@
         <baseMoodEffect>-15</baseMoodEffect>
       </li>
     </stages>
-  </ThoughtDef> -->
+  </ThoughtDef>
 
   <!-- Ratkin Poison Effect Thought -->
   <ThoughtDef>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MentalBreakDef>
+    <defName>RatkinRomanceAttemptUrge</defName>
+    <label>Romance Attempt spree</label>
+    <mentalState>RatkinRomanceAttemptState</mentalState>
+    <baseCommonality>0.5</baseCommonality>
+    <intensity>Minor</intensity>
+  </MentalBreakDef>
+
+  <MentalStateDef Name="RatkinRomanceAttemptState" ParentName="BaseMentalState">
+    <defName>RatkinRomanceAttemptState</defName>
+    <stateClass>RkM.MentalState_RomanceAttempt</stateClass>
+    <workerClass>RkM.MentalStateWorker_RomanceAttempt</workerClass>
+    <label>RomanceAttempt spree</label>
+    <category>Misc</category>
+    <colonistsOnly>true</colonistsOnly>
+    <blockInteractionInitiationExcept>
+      <li>RomanceAttempt</li>
+      <li>DeepTalk</li>
+      <li>Chitchat</li>
+    </blockInteractionInitiationExcept>
+    <blockInteractionRecipientExcept>
+      <li>RomanceAttempt</li>
+      <li>DeepTalk</li>
+      <li>Chitchat</li>
+    </blockInteractionRecipientExcept>
+    <blockRandomInteraction>true</blockRandomInteraction>
+    <requiredCapacities>
+      <li>Talking</li>
+    </requiredCapacities>
+    <minTicksBeforeRecovery>2000</minTicksBeforeRecovery>
+    <maxTicksBeforeRecovery>3000</maxTicksBeforeRecovery>
+    <recoveryMtbDays>0.166</recoveryMtbDays>
+    <recoverFromSleep>true</recoverFromSleep>
+    <moodRecoveryThought>RatkinLovePotionEmbarrassmentThought</moodRecoveryThought>
+    <blockNormalThoughts>true</blockNormalThoughts>
+    <nameColor>(1.0, 0.4, 0.8)</nameColor>
+    <recoveryMessage>{0} is no longer on a romance attempt spree.</recoveryMessage>
+    <beginLetter>{0} is on a romance attempt spree targeting {1}.\n\n[PAWN_pronoun] will pursue {1} relentlessly, attempting to express love and deep feelings.</beginLetter>
+    <beginLetterDef>NeutralEvent</beginLetterDef>
+    <baseInspectLine>Mental state: Romance attempt spree (targeting {0})</baseInspectLine>
+    <allowBeatfire>true</allowBeatfire>
+  </MentalStateDef>
+</Defs>

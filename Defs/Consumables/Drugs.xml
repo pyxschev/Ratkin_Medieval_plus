@@ -270,46 +270,51 @@
     </ingestible>
   </ThingDef>
 
-  <!--  ?? - TEMPORARILY COMMENTED OUT - FUNCTIONALITY NOT YET IMPLEMENTED -->
-  <!-- <ThingDef ParentName="DrugBase">
+  <!-- 复活药水 -->
+  <ThingDef ParentName="ResourceBase">
     <defName>RatkinResurrectionPotion</defName>
     <label>ratkin resurrection potion</label>
-    <description>A potion black as the abyss, yet flickering with phosphorescent light, this ominous brew desecrates the laws of death, forcibly calling back the souls of the departed.</description>
+    <description>A potion black as the abyss, yet flickering with phosphorescent light, this ominous brew desecrates the laws of death, forcibly calling back the souls of the departed. The resurrected often suffer from severe disorientation and memory loss, struggling to reconnect with their former lives.</description>
+    <thingClass>ThingWithComps</thingClass>
     <graphicData>
       <texPath>Graybox/Things/Item_Potion_Resurrection</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <color>(1.0, 1.0, 1.0)</color>
     </graphicData>
     <rotatable>false</rotatable>
+    <stackLimit>5</stackLimit>
     <statBases>
       <WorkToMake>8000</WorkToMake>
       <MarketValue>5000</MarketValue>
       <Mass>0.1</Mass>
+      <MaxHitPoints>80</MaxHitPoints>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Flammability>0.2</Flammability>
     </statBases>
     <techLevel>Medieval</techLevel>
-    <ingestible>
-      
-      <foodType>Processed, Fluid</foodType>
-      <joyKind>Chemical</joyKind>
-      <joy>-1.5</joy>
-      <nurseable>true</nurseable>
-      <drugCategory>None</drugCategory>
-      <ingestSound>Ingest_Drink</ingestSound>
-      <ingestHoldOffsetStanding>
-        <northDefault>
-          <offset>(0.18,0,0)</offset>
-        </northDefault>
-      </ingestHoldOffsetStanding>
-      <ingestCommandString>Drink {0}</ingestCommandString>
-      <ingestReportString>Drinking {0}.</ingestReportString>
-      <outcomeDoers>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>RatkinResurrectionSickness</hediffDef>
-          <severity>1.0</severity>
-        </li>
-      </outcomeDoers>
-    </ingestible>
-  </ThingDef> -->
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>0</useDuration>
+        <warmupMote>Mote_ResurrectAbility</warmupMote>
+        <showUseGizmo>true</showUseGizmo>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_SingleCorpse</compClass>
+        <fleshCorpsesOnly>true</fleshCorpsesOnly>
+        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+      </li>
+      <li Class="CompProperties_TargetEffectResurrect">
+        <moteDef>Mote_ResurrectFlash</moteDef>
+        <addsHediff>RatkinResurrectionSickness</addsHediff>
+      </li>
+    </comps>
+  </ThingDef>
 
   <!-- 老鼠药 -->
   <ThingDef ParentName="DrugBase">
@@ -392,7 +397,6 @@
           <hediffDef>RatkinAntidoteEffect</hediffDef>
           <severity>1.0</severity>
         </li>
-        <!-- Note: Hediff removal (ToxicBuildup, FoodPoisoning, RatkinPoisonEffect) should be handled by the RatkinAntidoteEffect hediff comp -->
       </outcomeDoers>
     </ingestible>
   </ThingDef>

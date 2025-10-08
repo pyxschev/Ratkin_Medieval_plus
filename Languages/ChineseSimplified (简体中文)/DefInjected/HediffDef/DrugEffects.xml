@@ -16,6 +16,11 @@
   <!-- EN: A hollow feeling of mental emptiness. The mind struggles to function normally after being wiped clean. -->
   <RatkinBrainwashEffect.description>一种空洞的精神空虚感。在被彻底清洗后，大脑难以正常运作。</RatkinBrainwashEffect.description>
   
+  <!-- EN: molten shell -->
+  <RatkinFireResistEffect.label>TODO</RatkinFireResistEffect.label>
+  <!-- EN: Feels like wearing a cooled lava shell... Fire resistance greatly increased but at the cost of comfort. -->
+  <RatkinFireResistEffect.description>TODO</RatkinFireResistEffect.description>
+  
   <!-- EN: blessed feeling -->
   <RatkinHolyWaterEffect.label>受祝福的感觉</RatkinHolyWaterEffect.label>
   <!-- EN: I feel blessed. A sense of peace and divine protection washes over the soul. -->

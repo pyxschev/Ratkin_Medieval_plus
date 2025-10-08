@@ -221,7 +221,7 @@
   
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>suojia</defName>
-	<label>锁甲</label>
+	<label>锁甲</label>  
     <description>由金属煅烧穿环，一层一层在鼠族灵巧的工匠手中编制成坚固的锁甲</description>
 	<techLevel>Medieval</techLevel>
 	<possessionCount>1</possessionCount>
